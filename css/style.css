@@ -1,0 +1,198 @@
+/* GROUP: NAV */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+
+  height: 6.2rem;
+  /* background-color: #426249 */
+  border-radius: 11px;
+  margin: 0 8.6rem;
+  padding: 0 3.6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+
+  list-style: none;
+}
+/* .header {
+  position: sticky;
+  top: 2rem;
+  z-index: 1000;
+} */
+
+.header-links:link,
+.header-links:visited {
+  color: #426249;
+  font-weight: 600;
+}
+
+.header-links:hover,
+.header-links:active {
+  color: #d08a5b;
+}
+
+/* GROUP: HERO */
+.section-hero {
+  height: calc(100vh - 6.2rem);
+  padding: 0 4.4rem;
+  align-content: center;
+}
+
+.hero-container {
+  align-items: center;
+}
+
+.hero-para {
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+
+  margin-bottom: 5.2rem;
+}
+
+.hero-img-container {
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 9px;
+  display: block;
+  transition: all 0.4s;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
+  border-radius: 9px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn--cta {
+  color: #fff;
+  font-weight: 800;
+  background: #d08a5b;
+  border: #d08a5b 2px solid;
+  border-radius: 7px;
+  padding: 1.2rem 4.4rem;
+}
+
+.btn--cta:hover,
+.btn--cta:active {
+  filter: brightness(90%);
+}
+
+.btn--hero {
+  color: #426249;
+  background: #b0c7ae;
+  border: #88b293 2px solid;
+  border-radius: 7px;
+  padding: 1.2rem 4.4rem;
+}
+
+.btn--hero:hover,
+.btn--hero:active {
+  background-color: #fff;
+}
+
+/* GROUP: ABOUT */
+.section-about {
+  color: #fff;
+  background-color: #426249;
+  padding: 4.4rem;
+}
+
+.grid--about {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  gap: 4.4rem;
+}
+
+.about-stats {
+  display: flex;
+  gap: 2rem;
+}
+
+.stats-separator {
+  border: #fff 1px solid;
+  border-radius: 11px;
+}
+
+.section-about strong {
+  font-size: 5.2rem;
+  font-weight: 700;
+}
+
+.section-about span {
+  color: #d08a5b;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.section-about p {
+  font-size: 1.4rem;
+}
+
+.about-para {
+  display: flex;
+  align-items: center;
+}
+
+.about-para em {
+  color: #d08a5b;
+  font-weight: 700;
+}
+
+/* GROUP: HOW */
+.how-para {
+  font-size: 1.4rem;
+}
+
+/* GROUP: Services */
+.services:hover {
+  transform: translateY(-1rem) translateX(1rem);
+  box-shadow: -1rem 1rem 1.4rem #d08a5b20;
+  transition: 0.3s;
+}
+
+.services-img {
+  width: 100%;
+}
+
+.services-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.services {
+  border: #426249 2px solid;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.services-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  padding: 1.2rem 2.2rem 2.2rem;
+}
+
+.services ul {
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* GROUP: TEAM */

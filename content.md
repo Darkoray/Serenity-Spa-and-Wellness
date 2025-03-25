@@ -2,7 +2,14 @@
 
 ## About Serenity Spa
 
-At **Serenity Spa & Wellness**, we believe in the power of self-care. Life is busy, and stress can take a toll on your body and mind. Our spa is a sanctuary designed to help you relax, recharge, and feel your absolute best. From luxurious facials to deep tissue massages, every treatment is designed with your well-being in mind.
+At **Serenity Spa & Wellness**, we believe in the power of self-care. Life is busy, and stress can take a toll on your body and mind. Our spa is a sanctuary designed to help you **Escape**, **Relax**, and **Renew** to your absolute best.
+
+- **10+ years** of experience in wellness and beauty
+- Over **5,000 satisfied clients** every year
+- More than **30 specialized treatments** for skin, body, and mind
+- **95% client satisfaction rate**, based on feedback
+
+From luxurious facials to deep tissue massages, every treatment is designed with your well-being in mind.
 
 📷 **Image 1: Large, high-resolution spa interior image (dim lighting, candles, relaxing ambiance)**.
 
@@ -11,7 +18,8 @@ At **Serenity Spa & Wellness**, we believe in the power of self-care. Life is bu
 ## Branding
 
 - **Headline:** Rejuvenate Your Body. Refresh Your Mind.
-- **Brand Color:** `#a2d5c6` (a soft pastel green for calmness)
+- **Slogan** Escape, Relax, Renew
+- **Brand Color:** `#76A383` `#8B6F5B`
 
 ---
 
@@ -74,7 +82,7 @@ Enhance your beauty with our expert hair and nail care.
 ## **How It Works**
 
 1. **Choose Your Service:** Explore our range of treatments and select the one that suits your needs.
-2. **Book an Appointment:** Pick a convenient time for your visit—our online booking makes it simple.
+2. **Book an Appointment:** Pick a convenient time for your visit our online booking makes it simple.
 3. **Relax & Unwind:** Let our expert therapists take care of the rest while you enjoy your moment of tranquility.
 
 📷 **Image 8: A step-by-step illustration or icons(booking, appointment, relaxation)** .
@@ -88,7 +96,7 @@ Enhance your beauty with our expert hair and nail care.
 Our professionals are trained to provide the best wellness and beauty treatments.
 
 - **Sarah Thompson** – Lead Massage Therapist, 10+ years of experience
-- **Emily Carter** – Certified Skincare Expert, specializes in organic facials
+- **Marie Carter** – Certified Skincare Expert, specializes in organic facials
 - **James Rodriguez** – Hair & Beauty Stylist, expert in hair treatments
 
 [View Full Team →](#)
@@ -129,7 +137,7 @@ Our professionals are trained to provide the best wellness and beauty treatments
 
 ## **Blog & Wellness Tips**
 
-📷 **Image 12: A peaceful nature image or essential oils on a wooden tray**.
+📷 **Image 12: A peaceful nature image or **.
 
 Stay informed with self-care, skincare, and relaxation tips.
 
@@ -189,9 +197,7 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 
 ## **Customer Testimonials**
 
-📷 **Image 16: Customer Testimonial Section**
-
-- **Three happy clients smiling after their treatments**.
+📷 **Image 16: Three happy clients smiling after their treatments**
 
 > “Serenity Spa is my go-to place for relaxation! The ambiance is amazing, and the massages are heavenly.”  
 > — _Sophia M._
@@ -204,9 +210,14 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 
 ---
 
+### Photo gallery
+
+---
+
 ## **Book Your Appointment Today**
 
-📷 **Image 17: Booking Section**  
+📷 **Image 17: Calming reception desk image or spa waiting area**
+
 Relax and rejuvenate at Serenity Spa. Book your session today and experience the ultimate relaxation.
 
 - A **calming reception desk image or spa waiting area**.  
@@ -238,13 +249,5 @@ Relax and rejuvenate at Serenity Spa. Book your session today and experience the
 - [Privacy & Terms](#)
 
 ---
-
-**Sub-pages:**
-
-1. **Meet Our Team** → A detailed page about therapists and stylists.
-2. **Spa Packages** → A page featuring exclusive offers.
-3. **Blog & Wellness Tips** → A content page for articles on self-care.
-4. **FAQ** → A dedicated page for common questions.
-5. **Gift Cards** → A landing page for purchasing spa gift cards.
 
 **Total Images: 18**

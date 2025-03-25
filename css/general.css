@@ -1,0 +1,149 @@
+/*
+*--- FONT SIZE SYSTEM (px) ---
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+REM = Desired Font Size / Default Font Size
+REM = 10 px / 16 px = 0.6250 = 62.5%
+
+*--- FONT WEIGHTS ---
+400 / 500 / 600 / 700
+
+*--- LINE HEIGHT ---
+1 / 1.05 / 1.2 / 1.6 / 1.8
+
+*--- LETTER SPACING (px)---
+-0.5 / 0.75
+
+*--- COLORS ---
+Primary:
+#88B293
+
+Tints:
+#dce1cb#
+#B0C7AE 
+
+Shades:
+#426249
+
+Accents:
+#D08A5B 
+
+Greys:
+#fff
+
+*--- SHADOWS ---
+
+*--- WHITESPACE ---*
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*--- BORDER RADIUS (px) ---
+9 / 11
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lora", serif;
+  color: #426249;
+  font-weight: 500;
+  background-color: #dce1cb;
+}
+
+.logo {
+  height: 3.6rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-family: "Alice", serif;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+
+  margin-bottom: 1.8rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+
+  margin-bottom: 1.8rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+
+  margin-bottom: 1.8rem;
+}
+
+.heading-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #d08a5b;
+  padding-left: 4px;
+}
+
+.container {
+  margin: 9.8rem 0;
+  padding: 0 8.6rem;
+}
+
+/* TITLE: HELPER */
+.list {
+  list-style: none;
+}
+
+/* TITLE: GRIDS */
+.grid {
+  gap: 4.4rem;
+  margin: 4.4rem 0;
+}
+
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* TITLE: BTN */
+.btn {
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  border: none;
+}
+
+.btn:link,
+.btn:visited {
+}
