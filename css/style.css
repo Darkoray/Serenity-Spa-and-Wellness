@@ -6,7 +6,7 @@
   height: 6.2rem;
   /* background-color: #426249 */
   border-radius: 11px;
-  margin: 0 8.6rem;
+  margin: 2.4rem 8.6rem;
   padding: 0 3.6rem;
 
   display: flex;
@@ -39,7 +39,7 @@
 
 /* GROUP: HERO */
 .section-hero {
-  height: calc(100vh - 6.2rem);
+  height: calc(100vh - 11rem);
   padding: 0 4.4rem;
   align-content: center;
 }
@@ -50,8 +50,6 @@
 
 .hero-para {
   font-size: 1.4rem;
-  margin-bottom: 1.8rem;
-
   margin-bottom: 5.2rem;
 }
 
@@ -63,7 +61,7 @@
   width: 100%;
   border-radius: 9px;
   display: block;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 .hero-img:hover {
@@ -152,6 +150,23 @@
 }
 
 /* GROUP: HOW */
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 7.4rem;
+  width: 7.4rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+
+  color: #fff;
+  background-color: #88b293;
+  border-radius: 50%;
+
+  margin-bottom: 2.4rem;
+}
+
 .how-para {
   font-size: 1.4rem;
 }
@@ -176,6 +191,8 @@
 .services {
   border: #426249 2px solid;
   border-radius: 11px;
+  background-color: #b0c7ae;
+
   overflow: hidden;
 }
 
@@ -196,3 +213,55 @@
 }
 
 /* GROUP: TEAM */
+.experts {
+  position: relative;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.experts-img {
+  width: 100%;
+}
+
+.experts-name {
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.text-separator {
+  padding: 0 4px;
+}
+
+.expert-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 25%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  padding: 1.2rem 2.2rem 2.2rem;
+
+  font-size: 1.2rem;
+  color: #426249;
+  background-color: #88b293e0;
+
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.experts:hover .expert-text {
+  opacity: 1;
+  transform: translateY(0);
+
+  transition: all 0.3s ease;
+}
+
+.experts:hover .experts-img {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}

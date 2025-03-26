@@ -16,7 +16,7 @@
 
 <!-- - ! Our Services -->
 
-- Meet Our Team
+<!-- - // Meet Our Team -->
 
 - Customer Testimonials /ahref
 
@@ -39,3 +39,8 @@
   - Additional Links
   - Contact Information
     }
+
+<!-- TODO: -->
+
+// Add icons
+// fix margins
