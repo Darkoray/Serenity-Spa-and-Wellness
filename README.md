@@ -42,5 +42,10 @@
 
 <!-- TODO: -->
 
+<!-- // fix header -->
+
 // Add icons
-// fix margins
+
+<!-- // fix margins -->
+
+// add more aherf links/btns

@@ -19,7 +19,7 @@ Primary:
 #88B293
 
 Tints:
-#dce1cb#
+#dce1cb
 #B0C7AE 
 
 Shades:
@@ -102,8 +102,9 @@ body {
 }
 
 .container {
-  margin: 9.8rem 0;
+  margin: 6.2rem 0;
   padding: 0 8.6rem;
+  display: inline-block;
 }
 
 /* TITLE: HELPER */

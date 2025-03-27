@@ -106,6 +106,8 @@
   color: #fff;
   background-color: #426249;
   padding: 4.4rem;
+
+  margin-bottom: 6.2rem;
 }
 
 .grid--about {
@@ -160,11 +162,26 @@
   font-size: 3.6rem;
   font-weight: 700;
 
-  color: #fff;
+  color: #dce1cb;
   background-color: #88b293;
   border-radius: 50%;
 
   margin-bottom: 2.4rem;
+}
+
+.steps-container {
+  display: flex;
+  position: relative;
+}
+
+.step-number-line {
+  position: absolute;
+  top: 35%;
+  right: 0;
+
+  width: 70%;
+  border: #88b293 3px solid;
+  border-radius: 11px;
 }
 
 .how-para {
@@ -263,5 +280,113 @@
 
 .experts:hover .experts-img {
   transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+/* GROUP: TESTIMONIALS */
+.section-testimonials figure {
+  background: #88b293;
+  border-radius: 11px;
+  padding: 2rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.quote {
+  font-size: 1.4rem;
+}
+
+.quote::first-letter {
+  padding-left: 2rem;
+}
+
+.text-line {
+  width: 100%;
+  border: #426249 1px solid;
+  border-radius: 11px;
+  margin: 1.2rem 0;
+}
+
+.customer-img {
+  height: 3.6rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.customer-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* GROUP: GALLERY */
+.grid--tesi-gal {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+}
+
+.section-gallery {
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.grid--gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+}
+
+.gal-img-1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.gal-img-2 {
+  grid-area: 1 / 3 / 2 / 5;
+}
+
+.gal-img-3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.gal-img-4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.gal-img-5 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.gal-img-6 {
+  grid-area: 3 / 1 / 5 / 3;
+}
+
+.gal-img-7 {
+  grid-area: 3 / 3 / 5 / 5;
+}
+
+.gal-img {
+  overflow: hidden;
+}
+
+.gal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.gal-img img:hover {
+  transform: scale(1.05);
   transition: all 0.3s;
 }
