@@ -69,8 +69,8 @@ Greys:
   --space-32: clamp(2rem, 2.5vw, 3.2rem); /* 32px */
   --space-48: clamp(3rem, 3.5vw, 4.8rem); /* 48px */
   --space-64: clamp(4rem, 5vw, 6.4rem); /* 64px */
-  --space-80: clamp(5rem, 6vw, 6.4rem); /* 80px */
-  --space-96: clamp(6rem, 7vw, 7.5rem); /* 96px */
+  --space-80: clamp(5rem, 6vw, 8rem); /* 80px */
+  --space-96: clamp(6rem, 7vw, 9.6rem); /* 96px */
   --space-128: clamp(8rem, 9vw, 12.8rem); /* 128px */
 
   /* COLORS */
