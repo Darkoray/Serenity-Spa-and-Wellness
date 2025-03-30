@@ -164,6 +164,11 @@ body {
   letter-spacing: 0.6px;
 }
 
+.text-separator {
+  font-weight: 700;
+  padding: 0 var(--space-04);
+}
+
 .container {
   padding: 0 var(--space-96);
   margin: 0 auto var(--space-128);
@@ -219,6 +224,8 @@ body {
 
 .link {
   position: relative;
+  color: var(--accent-100);
+  border-bottom: var(--accent-100) 1px solid;
 }
 
 .link::after {
@@ -234,6 +241,7 @@ body {
 .link:hover,
 .link:active {
   transform: translateX(-1rem);
+  border-bottom: transparent 1px solid;
 }
 
 .link:hover::after,

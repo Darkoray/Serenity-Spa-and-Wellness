@@ -25,7 +25,7 @@
 // Pricing {
 
 Our Spa Packages
-More Ways to Save & Book { /ahref Gift Cards Special Offers & Memberships Book Your Appointment Today
+More Ways to Save & Book { /ahref Gift Cards, Special Offers, Memberships, Book Your Appointment Today
 }
 }
 

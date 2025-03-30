@@ -240,11 +240,6 @@
   letter-spacing: -1px;
 }
 
-.text-separator {
-  font-weight: 700;
-  padding: 0 var(--space-04);
-}
-
 .expert-text {
   position: absolute;
   inset: auto auto 0 0;
@@ -398,7 +393,11 @@
   text-align: center;
 }
 
-.package-container {
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+
   padding: 0 var(--space-80);
 }
 
@@ -499,6 +498,11 @@
 .package.signature-package.btn--service:active {
   color: var(--shade-100);
   background-color: var(--tint-100);
+}
+
+.more-pricing-options {
+  display: flex;
+  gap: 1.4rem;
 }
 
 /* GROUP: FAQ */
