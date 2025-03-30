@@ -32,7 +32,13 @@
 .header-links:link,
 .header-links:visited {
   color: var(--shade-100);
+  font-size: var(--fs-16);
   font-weight: 600;
+
+  display: inline-block;
+  text-decoration: none;
+
+  transition: all 0.3s ease-in-out;
 }
 
 .header-links:hover,
@@ -42,18 +48,19 @@
 
 /* GROUP: HERO */
 .section-hero {
-  height: calc(100vh - 11rem), calc(100dvh - 11rem);
+  height: calc(100vh - 11rem);
+  height: calc(100dvh - 11rem);
   min-height: 52rem;
   padding: 0 var(--space-48);
   align-content: center;
 }
 
 .hero-container {
+  width: 100%;
   align-items: center;
 }
 
 .hero-para {
-  font-size: var(--fs-14);
   margin-bottom: var(--space-48);
 }
 
@@ -65,7 +72,7 @@
   width: 100%;
   border-radius: 9px;
   display: block;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero-img:hover {
@@ -78,40 +85,25 @@
   gap: var(--space-24);
 }
 
-.btn--cta {
-  color: var(--grey-100);
-  font-weight: 800;
-  background: var(--accent-100);
-  border: var(--accent-100) 2px solid;
-  border-radius: 7px;
-  padding: var(--space-12) var(--space-48);
-}
-
-.btn--cta:hover,
-.btn--cta:active {
-  filter: brightness(90%);
-}
-
 .btn--hero {
   color: var(--shade-100);
   background: var(--tint-200);
-  border: var(--primary-100) 2px solid;
-  border-radius: 7px;
-  padding: var(--space-12) var(--space-48);
+  border-color: var(--primary-100);
 }
 
 .btn--hero:hover,
 .btn--hero:active {
-  background-color: var(--grey-100);
+  background-color: var(--gray-100);
 }
 
 /* GROUP: ABOUT */
 .section-about {
-  color: var(--grey-100);
+  color: var(--gray-100);
+  width: auto;
   background-color: var(--shade-100);
   padding: var(--space-48);
 
-  margin-bottom: var(--space-64);
+  margin-bottom: var(--space-96);
 }
 
 .grid--about {
@@ -126,7 +118,7 @@
 }
 
 .stats-separator {
-  border: var(--grey-100) 1px solid;
+  border: var(--gray-100) 1px solid;
   border-radius: 11px;
 }
 
@@ -139,10 +131,6 @@
   color: var(--accent-100);
   font-size: var(--fs-24);
   font-weight: 700;
-}
-
-.section-about p {
-  font-size: var(--fs-14);
 }
 
 .about-para {
@@ -187,15 +175,15 @@
   border-radius: 11px;
 }
 
-.how-para {
-  font-size: var(--fs-14);
+/* GROUP: Services */
+.services {
+  transition: all 0.3s ease-in-out;
 }
 
-/* GROUP: Services */
 .services:hover {
   transform: translateY(-1rem) translateX(1rem);
   box-shadow: -1rem 1rem 1.4rem var(--accent-100) 20;
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .services-img {
@@ -206,6 +194,7 @@
   font-size: var(--fs-24);
   font-weight: 600;
   letter-spacing: -1px;
+  text-wrap: nowrap;
 }
 
 .services {
@@ -226,6 +215,7 @@
 
 .services ul {
   font-size: var(--fs-12);
+  letter-spacing: 0.4px;
 
   display: flex;
   flex-direction: column;
@@ -241,6 +231,7 @@
 
 .experts-img {
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 .experts-name {
@@ -250,7 +241,8 @@
 }
 
 .text-separator {
-  padding: 0 4px;
+  font-weight: 700;
+  padding: 0 var(--space-04);
 }
 
 .expert-text {
@@ -266,26 +258,34 @@
   padding: var(--space-12) var(--space-24) var(--space-24);
 
   font-size: var(--fs-12);
+  letter-spacing: 0.4px;
   color: var(--shade-100);
-  background-color: var(--primary-100) e0;
+  background-color: var(--primary-trans-100);
 
   opacity: 0;
   transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
 }
 
 .experts:hover .expert-text {
   opacity: 1;
   transform: translateY(0);
 
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .experts:hover .experts-img {
   transform: scale(1.1);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 /* GROUP: TESTIMONIALS */
+.testi-gal-container {
+  background-color: var(--tint-200);
+  margin-bottom: var(--space-128);
+  padding: var(--space-24) var(--space-48);
+}
+
 .section-testimonials figure {
   background: var(--primary-100);
   border-radius: 11px;
@@ -305,7 +305,7 @@
 }
 
 .quote {
-  font-size: var(--fs-14);
+  font-size: var(--fs-16);
 }
 
 .quote::first-letter {
@@ -316,7 +316,7 @@
   width: 100%;
   border: var(--shade-100) 1px solid;
   border-radius: 11px;
-  margin: var(--space-12) 0;
+  margin-block: var(--space-12);
 }
 
 .customer-img {
@@ -390,5 +390,224 @@
 
 .gal-img img:hover {
   transform: scale(1.05);
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
+}
+
+/* GROUP: PRICING */
+.pricing-heading {
+  text-align: center;
+}
+
+.package-container {
+  padding: 0 var(--space-80);
+}
+
+.package {
+  border-radius: 11px;
+  background-color: var(--tint-200);
+  padding: var(--space-64) var(--space-32);
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+}
+
+.package-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-08);
+}
+
+.package-title {
+  font-size: var(--fs-20);
+  text-align: center;
+  font-weight: 600;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-04);
+}
+
+.price-symbol {
+  font-size: var(--fs-24);
+  font-weight: 600;
+  transform: translateY(20%);
+}
+
+.Price {
+  font-size: var(--fs-62);
+  font-weight: 700;
+}
+
+.service-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn--service {
+  color: var(--shade-100);
+  background-color: var(--tint-100);
+  border-color: var(--shade-100);
+}
+
+.btn--service:hover,
+.btn--service:active {
+  color: var(--tint-100);
+  background-color: var(--shade-100);
+}
+
+.package-traits {
+  text-wrap: nowrap;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  padding: var(--space-12) var(--space-24) var(--space-24);
+}
+
+.signature-package::after {
+  position: absolute;
+
+  content: "best value";
+  inset: 35px -50px auto auto;
+  font-size: var(--fs-16);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--gray-100);
+  background-color: var(--accent-100);
+
+  padding: var(--space-04) var(--space-48);
+  transform: rotate(45deg);
+}
+
+.package.signature-package {
+  position: relative;
+  color: var(--gray-100);
+  background-color: var(--shade-100);
+}
+
+.package.signature-package .btn--service {
+  border-color: var(--gray-100);
+}
+
+.package.signature-package.btn--service:hover,
+.package.signature-package.btn--service:active {
+  color: var(--shade-100);
+  background-color: var(--tint-100);
+}
+
+/* GROUP: FAQ */
+.faq-tips-container {
+  position: relative;
+  margin: 0 var(--space-96) var(--space-128);
+}
+
+.faq-tips-container .heading-tertiary {
+  text-align: center;
+}
+
+.faq-tips-container::before,
+.faq-tips-container::after {
+  content: "";
+  position: absolute;
+  background-color: var(--tint-200);
+}
+
+.faq-tips-container::before {
+  top: var(--fs-36);
+  height: 2px;
+  width: 100%;
+}
+
+.faq-tips-container::after {
+  left: 50%;
+  height: 100%;
+  width: 2px;
+}
+
+.faq input[type="radio"] {
+  display: none;
+}
+
+.ques-ans {
+  padding-block: var(--space-12);
+  border-bottom: var(--primary-100) 1px solid;
+}
+
+.ques {
+  font-size: var(--fs-24);
+  background-color: var(--tint-200);
+  border-radius: 7px;
+
+  cursor: pointer;
+  display: block;
+  padding: 1rem;
+}
+
+.ques:hover,
+.ques:active {
+  filter: brightness(90%);
+  transition: all 0.3s ease-in-out;
+}
+
+.ques-ans-wrapper {
+  font-size: var(--fs-14);
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.ans {
+  padding-block: 1rem;
+}
+
+/* This targets the .ques-ans immediately after the radio input when it's checked */
+.accordion input:checked + .ques-ans .ques-ans-wrapper {
+  height: 3.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* GROUP: TIPS */
+.tips-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.tips-link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  text-decoration: none;
+}
+
+.tips-text {
+  align-self: flex-end;
+
+  font-size: var(--fs-20);
+  color: var(--shade-100);
+  border-bottom: var(--shade-100) 1px solid;
+}
+
+.tips-text::after {
+  color: var(--accent-100);
+}
+
+.tips-text:hover,
+.tips-text:active {
+  color: var(--accent-100);
+  border-bottom: transparent 1px solid;
+}
+
+.tips-container img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  height: 5.4rem;
+  border-radius: 7px;
 }

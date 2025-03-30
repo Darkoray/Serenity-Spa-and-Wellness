@@ -1,51 +1,61 @@
 # Serenity-Spa-and-Wellness
 
-<!-- - ? Header {
+<!-- // Header {
   Services, Testimonials, Gallery, FAQ, CTA
   } -->
 
-<!-- - // Hero { -->
+<!-- // Hero { -->
 
 - Summery
 - Branding
   }
 
-<!-- - // About -->
+<!-- // About -->
 
-<!-- - ! How It Works  -->
+<!-- // How It Works  -->
 
-<!-- - ! Our Services -->
+<!-- // Our Services -->
 
-<!-- - // Meet Our Team -->
+<!-- // Meet Our Team -->
 
-- Customer Testimonials /ahref
+<!-- // Customer Testimonials /ahref -->
 
-- Spa Gallery
+<!-- // Spa Gallery -->
 
-- Pricing {
+// Pricing {
 
-  - Our Spa Packages
-  - More Ways to Save & Book { /ahref - Gift Cards - Special Offers & Memberships - Book Your Appointment Today
-    }
-    }
+Our Spa Packages
+More Ways to Save & Book { /ahref Gift Cards Special Offers & Memberships Book Your Appointment Today
+}
+}
 
-- Tips-FAQ {
+// Tips-FAQ {
 
-  - Blog & Wellness Tips /ahref
-  - FAQ /ahref
-    }
+Blog & Wellness Tips /ahref
+FAQ /ahref
+}
 
-- Footer {
-  - Additional Links
-  - Contact Information
-    }
+// Footer {
+Additional Links
+Contact Information
+}
 
 <!-- TODO: -->
 
 <!-- // fix header -->
 
-// Add icons
+<!-- // fix hero -->
+
+// add icons
 
 <!-- // fix margins -->
 
 // add more aherf links/btns
+
+// add img alt texts
+
+// resize imgs
+
+// make low quality imgs
+
+// add a form

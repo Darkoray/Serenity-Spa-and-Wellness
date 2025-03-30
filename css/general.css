@@ -28,8 +28,11 @@ Shades:
 Accents:
 #D08A5B 
 
-Greys:
+Grays:
 #fff
+
+Transparent:
+#88B293e0
 
 *--- SHADOWS ---
 
@@ -42,7 +45,7 @@ Greys:
 */
 
 :root {
-  /* FONT SIZE SYSTEM */
+  /* TITLE: FONT SIZE SYSTEM */
   --fs-10: clamp(0.6rem, calc(1vw + 0.2rem), 1rem); /* 10px */
   --fs-12: clamp(0.75rem, calc(1vw + 0.3rem), 1.2rem); /* 12px */
   --fs-14: clamp(0.875rem, calc(1vw + 0.4rem), 1.4rem); /* 14px */
@@ -59,7 +62,7 @@ Greys:
   --fs-86: clamp(5.375rem, calc(7vw + 3rem), 8.6rem); /* 86px */
   --fs-98: clamp(6.125rem, calc(8vw + 3.5rem), 9.8rem); /* 98px */
 
-  /* WHITESPACE SYSTEM */
+  /* TITLE: WHITESPACE SYSTEM */
   --space-02: clamp(0.12rem, 0.3vw, 0.25rem); /* 2px */
   --space-04: clamp(0.25rem, 0.5vw, 0.4rem); /* 4px */
   --space-08: clamp(0.5rem, 1vw, 0.8rem); /* 8px */
@@ -73,7 +76,7 @@ Greys:
   --space-96: clamp(6rem, 7vw, 9.6rem); /* 96px */
   --space-128: clamp(8rem, 9vw, 12.8rem); /* 128px */
 
-  /* COLORS */
+  /* TITLE: COLORS */
 
   /* PRIMARY */
   --primary-100: #88b293;
@@ -88,8 +91,11 @@ Greys:
   /* ACCENTS */
   --accent-100: #d08a5b;
 
-  /* GREYS */
-  --grey-100: #fff;
+  /* GRAYS */
+  --gray-100: #fff;
+
+  /* TRANSPARENT */
+  --primary-trans-100: #88b293e0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Alice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
@@ -134,7 +140,7 @@ body {
   font-weight: 400;
   letter-spacing: -1px;
 
-  margin-bottom: var(--space-24);
+  margin-bottom: var(--space-32);
 }
 
 .heading-tertiary {
@@ -146,56 +152,105 @@ body {
 }
 
 .heading-title {
-  font-size: var(--fs-10);
+  font-size: var(--fs-12);
   font-weight: 800;
+  letter-spacing: 1.6px;
   color: var(--accent-100);
-  padding-left: 4px;
+  padding-left: var(--space-04);
+}
+
+.text {
+  font-size: var(--fs-14);
+  letter-spacing: 0.6px;
 }
 
 .container {
-  margin: var(--space-64) 0;
   padding: 0 var(--space-96);
-  display: inline-block;
+  margin: 0 auto var(--space-128);
 }
 
-/* TITLE: HELPER */
 .list {
   list-style: none;
 }
 
 /* TITLE: GRIDS */
 .grid {
+  display: grid;
   gap: var(--space-48);
-  margin: var(--space-48) 0;
 }
 
 .grid--2-cols {
-  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .grid--3-cols {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .grid--4-cols {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* TITLE: BTN */
-.btn {
-  cursor: pointer;
+/* TITLE: LINKS */
+.btn,
+.link {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
 
+.btn:hover,
+.btn:active,
+.link:hover,
+.link:active {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
   font-family: inherit;
   font-size: var(--fs-16);
   font-weight: 600;
-  text-decoration: none;
+  text-wrap: nowrap;
 
-  border: none;
+  border: 2px solid;
+  border-radius: 100px;
+  padding: var(--space-12) var(--space-32);
 }
 
-.btn:link,
-.btn:visited {
+.link {
+  position: relative;
+}
+
+.link::after {
+  content: "→";
+
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-5px);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover,
+.link:active {
+  transform: translateX(-1rem);
+}
+
+.link:hover::after,
+.link:active::after {
+  opacity: 1;
+  transform: translateX(5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--cta {
+  font-weight: 800;
+  color: var(--gray-100);
+  background: var(--accent-100);
+  border-color: var(--accent-100);
+}
+
+.btn--cta:hover,
+.btn--cta:active {
+  filter: brightness(90%);
 }
