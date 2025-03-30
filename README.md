@@ -22,18 +22,18 @@
 
 <!-- // Spa Gallery -->
 
-// Pricing {
+<!-- // Pricing {
 
 Our Spa Packages
 More Ways to Save & Book { /ahref Gift Cards, Special Offers, Memberships, Book Your Appointment Today
 }
-}
+} -->
 
-// Tips-FAQ {
+<!-- // Tips-FAQ {
 
-Blog & Wellness Tips /ahref
 FAQ /ahref
-}
+Blog & Wellness Tips /ahref
+} -->
 
 // Footer {
 Additional Links
@@ -50,7 +50,7 @@ Contact Information
 
 <!-- // fix margins -->
 
-// add more aherf links/btns
+<!-- // add more aherf links/btns -->
 
 // add img alt texts
 
@@ -58,4 +58,14 @@ Contact Information
 
 // make low quality imgs
 
-// add a form
+// add a membership form
+
+<!-- // improve container -->
+
+// improve testimonial
+
+// add sub-pages
+
+// link up all links and buttons
+
+// add media queries
