@@ -566,7 +566,6 @@
   padding-block: 1rem;
 }
 
-/* This targets the .ques-ans immediately after the radio input when it's checked */
 .accordion input:checked + .ques-ans .ques-ans-wrapper {
   height: 3.6rem;
   transition: all 0.3s ease-in-out;
