@@ -105,6 +105,7 @@ Transparent:
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -112,10 +113,11 @@ body {
   color: var(--shade-100);
   font-weight: 500;
   background-color: var(--tint-100);
+  overflow-x: hidden;
 }
 
 .logo {
-  height: 3.6rem;
+  height: var(--fs-36);
 }
 
 .heading-primary,
@@ -166,7 +168,7 @@ body {
 }
 
 .container {
-  padding: 0 var(--space-96);
+  width: clamp(32rem, 86vw, 120rem);
   margin: 0 auto var(--space-128);
 }
 

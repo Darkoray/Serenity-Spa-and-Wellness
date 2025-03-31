@@ -5,8 +5,8 @@
   justify-content: space-between;
   gap: var(--space-24);
 
-  margin: var(--space-24) var(--space-80);
-  padding: 0 var(--space-32);
+  width: clamp(32rem, 80vw, 120rem);
+  margin: var(--space-24) auto;
 }
 
 .header-nav {
@@ -22,12 +22,6 @@
   align-items: center;
   gap: var(--space-24);
 }
-
-/* .header {
-  position: sticky;
-  top: 2rem;
-  z-index: 1000;
-} */
 
 .header-links:link,
 .header-links:visited {
@@ -56,7 +50,8 @@
 }
 
 .hero-container {
-  width: 100%;
+  width: clamp(32rem, 86vw, 120rem);
+  justify-self: center;
   align-items: center;
 }
 
@@ -97,13 +92,14 @@
 }
 
 /* GROUP: ABOUT */
-.section-about {
+.about-container {
   color: var(--gray-100);
-  width: auto;
-  background-color: var(--shade-100);
   padding: var(--space-48);
+  margin: 0 auto var(--space-96);
+}
 
-  margin-bottom: var(--space-96);
+.section-about {
+  background-color: var(--shade-100);
 }
 
 .grid--about {
@@ -112,6 +108,7 @@
 
 .about-stats {
   display: flex;
+  justify-content: center;
   gap: var(--space-16);
 }
 
@@ -134,6 +131,7 @@
 .about-para {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about-para em {
@@ -275,11 +273,17 @@
 /* GROUP: TESTIMONIALS */
 .testi-gal-container {
   background-color: var(--tint-200);
-  margin-bottom: var(--space-128);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto var(--space-128);
   padding: var(--space-24) var(--space-48);
 }
 
 .section-testimonials figure {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 45%;
   background: var(--primary-100);
   border-radius: 11px;
   padding: var(--space-24);
@@ -287,7 +291,10 @@
 
 .comments {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   gap: var(--space-24);
 }
 
@@ -322,6 +329,7 @@
 .customer-name {
   font-size: var(--fs-16);
   font-weight: 600;
+  text-wrap: nowrap;
 }
 
 .section-testimonials .link-more {
@@ -331,7 +339,7 @@
 /* GROUP: GALLERY */
 .grid--tesi-gal {
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-columns: 65fr 35fr;
 }
 
 .section-gallery {
@@ -506,8 +514,10 @@
 
 /* GROUP: FAQ */
 .faq-tips-container {
+  width: clamp(32rem, 86vw, 120rem);
+  margin: 0 auto var(--space-128);
+
   position: relative;
-  margin: 0 var(--space-96) var(--space-128);
 }
 
 .faq-tips-container .heading-tertiary {
@@ -621,11 +631,13 @@
 
 .footer-container {
   letter-spacing: 1px;
+  line-height: 1.2;
   color: var(--gray-100);
+  width: clamp(32rem, 86vw, 120rem);
 
   display: flex;
   flex-direction: column;
-  padding: 0 var(--space-96);
+  margin: 0 auto;
 }
 
 .footer-top {

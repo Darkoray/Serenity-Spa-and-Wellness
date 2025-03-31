@@ -208,6 +208,9 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 > “This is the best spa experience I’ve had. Everything from the service to the calming environment is perfect!”  
 > — _Jessica L._
 
+> “From the moment I walked in, I felt at peace. The staff is incredibly welcoming, and the treatments are pure bliss!”
+> — _Olivia D._
+
 ---
 
 ### Photo gallery
