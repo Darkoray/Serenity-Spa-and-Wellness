@@ -95,17 +95,33 @@ Transparent:
   --gray-100: #fff;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
   padding: 0;
   margin: 0;
+  backface-visibility: hidden;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--accent-100);
+  border-radius: 5px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -113,11 +129,22 @@ body {
   color: var(--shade-100);
   font-weight: 500;
   background-color: var(--tint-100);
-  overflow-x: hidden;
 }
 
 .logo {
   height: var(--fs-36);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-04);
+}
+
+ion-icon {
+  flex-shrink: 0;
+  font-size: calc(100% - 10%);
+  color: inherit;
 }
 
 .heading-primary,
@@ -138,6 +165,7 @@ body {
   font-size: var(--fs-44);
   font-weight: 400;
   letter-spacing: -1px;
+  text-wrap: nowrap;
 
   margin-bottom: var(--space-32);
 }
@@ -146,6 +174,7 @@ body {
   font-size: var(--fs-30);
   font-weight: 400;
   letter-spacing: -1px;
+  text-wrap: nowrap;
 
   margin-bottom: var(--space-24);
 }
@@ -174,6 +203,7 @@ body {
 
 .list {
   list-style: none;
+  color: var(--shade-100);
 }
 
 /* TITLE: GRIDS */

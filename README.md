@@ -4,11 +4,11 @@
   Services, Testimonials, Gallery, FAQ, CTA
   } -->
 
-<!-- // Hero { -->
+<!-- // Hero {
 
-- Summery
-- Branding
-  }
+Summery
+Branding
+} -->
 
 <!-- // About -->
 
@@ -31,14 +31,16 @@ More Ways to Save & Book { /ahref Gift Cards, Special Offers, Memberships, Book 
 
 <!-- // Tips-FAQ {
 
-FAQ /ahref
-Blog & Wellness Tips /ahref
-} -->
+<!-- FAQ /ahref -->
 
-// Footer {
+<!-- Blog & Wellness Tips /ahref -->
+
+}
+
+<!-- // Footer {
 Additional Links
 Contact Information
-}
+} -->
 
 <!-- TODO: -->
 
@@ -46,13 +48,13 @@ Contact Information
 
 <!-- // fix hero -->
 
-// add icons
+<!-- // add icons -->
 
 <!-- // fix margins -->
 
 <!-- // add more aherf links/btns -->
 
-// add img alt texts
+<!-- // add img alt texts -->
 
 // resize imgs
 
@@ -62,10 +64,24 @@ Contact Information
 
 <!-- // improve container -->
 
-// improve testimonial
+<!-- // improve testimonial -->
 
 // add sub-pages
 
-// link up all links and buttons
+<!-- // link up all links and buttons -->
 
 // add media queries
+
+<!-- // add date in testimonials -->
+
+<!-- // fix learn more button -->
+
+<!-- // add meta tags -->
+
+<!-- // fix about -->
+
+<!-- // fix team -->
+
+// add favicons
+
+<!-- // style focus -->

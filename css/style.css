@@ -40,19 +40,253 @@
   color: var(--accent-100);
 }
 
+/* My version of hamburger menu that doesnt work properly
+
+@media screen and (max-width: 48em) {
+  #toggle,
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-icon-box::before #toggle {
+    justify-content: flex-end;
+  }
+
+  #toggle:checked ~ .header-nav,
+  #toggle:checked ~ .menu-background {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-nav {
+    position: absolute;
+    inset: 6.2rem 0 auto auto;
+    z-index: 99;
+
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  .menu-background {
+    position: absolute;
+    inset: 0 0 auto auto;
+    z-index: 98;
+
+    background-color: #426249db;
+    backdrop-filter: blur(4px);
+    width: 40vw;
+    height: 100vh;
+
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: flex;
+    inset: 2rem 2rem auto auto;
+    cursor: pointer;
+    z-index: 9999;
+
+    width: var(--fs-24);
+    height: var(--fs-24);
+  }
+
+  .menu-icon:hover.menu-icon > span,
+  .menu-icon:active.menu-icon > span,
+  .menu-icon:hover.menu-icon > span::before,
+  .menu-icon:active.menu-icon > span::before,
+  .menu-icon:hover.menu-icon > span::after,
+  .menu-icon:active.menu-icon > span::after {
+    border-color: var(--accent-100);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-icon > span {
+    justify-self: center;
+    width: 100%;
+    height: 2px;
+    border-radius: 9px;
+    border: var(--shade-100) 2px solid;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--shade-100);
+  }
+
+  .menu-icon > span::before,
+  .menu-icon > span::after {
+    content: "";
+    display: flex;
+    justify-self: c;
+    position: absolute;
+    left: 0;
+    width: 85%;
+    border-radius: 9px;
+    border: var(--shade-100) 2px solid;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-icon > span::before {
+    top: -8px;
+  }
+
+  .menu-icon > span::after {
+    top: 8px;
+  }
+
+  #toggle:checked ~ .menu-icon > span::before,
+  #toggle:checked ~ .menu-icon > span::after {
+    top: 0;
+    border-color: var(--accent-100);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-menu {
+    height: 100vh;
+    height: 100dvh;
+    width: 40vw;
+    flex-direction: column;
+  }
+
+  .header-links:link,
+  .header-links:visited {
+    color: var(--tint-100);
+  }
+
+  .header-links:hover,
+  .header-links:active {
+    color: var(--accent-100);
+  }
+} */
+
+.hamburger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 48em) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-container {
+    position: relative;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-08);
+    width: fit-content;
+    cursor: pointer;
+
+    position: absolute;
+    inset: 1rem 1rem auto auto;
+    z-index: 999;
+  }
+
+  .hamburger-menu *:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input {
+    content: "";
+    width: var(--fs-44);
+    height: 4px;
+    border-radius: 100px;
+    background-color: var(--shade-100);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger-menu:hover.hamburger-menu::before,
+  .hamburger-menu:hover.hamburger-menu::after,
+  .hamburger-menu:hover.hamburger-menu input,
+  .hamburger-menu:active.hamburger-menu::before,
+  .hamburger-menu:active.hamburger-menu::after,
+  .hamburger-menu:active.hamburger-menu input {
+    transition: all 0.3s ease-in-out;
+    background-color: var(--accent-100);
+  }
+
+  .hamburger-menu input {
+    appearance: none;
+    transition: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger-menu:has(input:checked)::before {
+    transform: translateY(8px);
+    background-color: var(--accent-100);
+    height: 0;
+  }
+
+  .hamburger-menu:has(input:checked)::after {
+    transform: translateY(-8px);
+    background-color: var(--accent-100);
+    height: 0;
+  }
+
+  .hamburger-menu input:checked {
+    background-color: var(--accent-100);
+  }
+
+  .header-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    inset: -2rem -4rem auto auto;
+    translate: 100%;
+    transition: all 0.3s ease-in-out;
+
+    min-width: 40vw;
+    min-height: 110vh;
+    min-height: 110dvh;
+    padding: var(--space-96) var(--space-24);
+    background-color: #426249db;
+    backdrop-filter: blur(5px);
+    z-index: 99;
+  }
+
+  .hamburger-menu:has(input:checked) + .header-nav > .header-menu {
+    translate: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header-links:link,
+  .header-links:visited {
+    color: var(--tint-100);
+  }
+
+  .header-links:hover,
+  .header-links:active {
+    color: var(--accent-100);
+  }
+}
+
 /* GROUP: HERO */
 .section-hero {
-  height: calc(100vh - 11rem);
-  height: calc(100dvh - 11rem);
-  min-height: 52rem;
-  padding: 0 var(--space-48);
+  height: clamp(fit-content, auto, calc(100dvh - 11rem));
   align-content: center;
+  padding: 0 var(--space-48);
 }
 
 .hero-container {
   width: clamp(32rem, 86vw, 120rem);
+
   justify-self: center;
   align-items: center;
+}
+
+.hero-grid {
+  margin: 0 auto var(--space-64);
 }
 
 .hero-para {
@@ -86,6 +320,11 @@
   border-color: var(--primary-100);
 }
 
+.btn--hero .link {
+  color: var(--shade-100);
+  border: none;
+}
+
 .btn--hero:hover,
 .btn--hero:active {
   background-color: var(--gray-100);
@@ -103,6 +342,8 @@
 }
 
 .grid--about {
+  display: grid;
+  gap: var(--space-48);
   grid-template-columns: 60fr 40fr;
 }
 
@@ -140,6 +381,21 @@
 }
 
 /* GROUP: HOW */
+.grid--how {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-48);
+}
+
+.section-how li {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-icons {
+  height: var(--fs-24);
+}
+
 .step-number {
   display: flex;
   align-items: center;
@@ -244,14 +500,14 @@
 
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-04);
 
   padding: var(--space-12) var(--space-24) var(--space-24);
 
   font-size: var(--fs-12);
   letter-spacing: 0.4px;
   color: var(--shade-100);
-  background-color: rgba(136, 178, 147, 0.86);
+  background-color: #88b293db;
 
   opacity: 0;
   transform: translateY(100%);
@@ -292,7 +548,6 @@
 .comments {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
   align-content: center;
   gap: var(--space-24);
@@ -332,6 +587,10 @@
   text-wrap: nowrap;
 }
 
+.customer-date {
+  margin-left: auto;
+}
+
 .section-testimonials .link-more {
   text-align: start;
 }
@@ -343,16 +602,15 @@
 }
 
 .section-gallery {
+  margin: auto 0;
   border-radius: 11px;
   overflow: hidden;
 }
 
 .grid--gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: var(--space-08);
-  grid-row-gap: var(--space-08);
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: var(--space-08);
 }
 
 .gal-img-1 {
@@ -476,7 +734,7 @@
   padding: var(--space-12) var(--space-24) var(--space-24);
 }
 
-.signature-package::after {
+/* .signature-package::after {
   position: absolute;
 
   content: "best value";
@@ -489,7 +747,7 @@
 
   padding: var(--space-04) var(--space-48);
   transform: rotate(45deg);
-}
+} */
 
 .package.signature-package {
   position: relative;
@@ -510,6 +768,10 @@
 .more-pricing-options {
   display: flex;
   gap: 1.4rem;
+}
+
+.more-pricing-options ion-icon {
+  padding-right: var(--space-04);
 }
 
 /* GROUP: FAQ */
@@ -553,7 +815,7 @@
 }
 
 .ques {
-  font-size: var(--fs-20);
+  font-size: var(--fs-18);
   background-color: var(--tint-200);
   border-radius: 7px;
 
@@ -576,7 +838,7 @@
 }
 
 .ans {
-  padding-block: 1rem;
+  padding-left: 1rem;
 }
 
 .accordion input:checked + .ques-ans .ques-ans-wrapper {
@@ -588,7 +850,7 @@
 .tips-container ul {
   display: flex;
   flex-direction: column;
-  gap: var(--space-24);
+  gap: var(--space-32);
 }
 
 .tips-link {
@@ -654,7 +916,6 @@
 
 .footer-top-link:link,
 .footer-top-link:visited {
-  display: inline-block;
   text-decoration: none;
 
   transition: all 0.3s ease-in-out;
