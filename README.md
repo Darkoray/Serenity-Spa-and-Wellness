@@ -24,18 +24,16 @@ Branding
 
 <!-- // Pricing {
 
-Our Spa Packages
+// Our Spa Packages
 More Ways to Save & Book { /ahref Gift Cards, Special Offers, Memberships, Book Your Appointment Today
-}
+  }
 } -->
 
 <!-- // Tips-FAQ {
 
-<!-- FAQ /ahref -->
+<!-- // FAQ /ahref -->
 
-<!-- Blog & Wellness Tips /ahref -->
-
-}
+<!-- // Blog & Wellness Tips /ahref -->
 
 <!-- // Footer {
 Additional Links
@@ -70,7 +68,7 @@ Contact Information
 
 <!-- // link up all links and buttons -->
 
-// add media queries
+<!-- // add media queries -->
 
 <!-- // add date in testimonials -->
 
@@ -85,3 +83,5 @@ Contact Information
 // add favicons
 
 <!-- // style focus -->
+
+// fix hamburger menu when open

@@ -35,7 +35,7 @@ Indulge in pure relaxation at Serenity Spa & Wellness. We offer a variety of spa
 
 📷 **Image 3: A flat lay of spa essentials (oils, towels, candles, and herbal ingredients)**.
 
-### **Therapeutic Massages**
+### **Tranquil Touch**
 
 Relieve stress and tension with our expert massage therapies, customized to your needs.
 
@@ -46,7 +46,7 @@ Relieve stress and tension with our expert massage therapies, customized to your
 
 📷 **Image 4: A person receiving a back massage in a peaceful setting**.
 
-### **Facial Treatments**
+### **Glow Facials**
 
 Restore your skin’s natural glow with our professional skincare solutions.
 
@@ -57,7 +57,7 @@ Restore your skin’s natural glow with our professional skincare solutions.
 
 📷 **Image 5: A close-up of a woman receiving a facial with a face mask**.
 
-### **Body Treatments**
+### **Body Bliss**
 
 Nourish and detox your body with our spa rituals.
 
@@ -67,7 +67,7 @@ Nourish and detox your body with our spa rituals.
 
 📷 **Image 6: A woman wrapped in a towel with a body scrub treatment**.
 
-### **Salon Services**
+### **Hair & Nails**
 
 Enhance your beauty with our expert hair and nail care.
 

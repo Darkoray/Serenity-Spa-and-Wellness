@@ -165,7 +165,6 @@ ion-icon {
   font-size: var(--fs-44);
   font-weight: 400;
   letter-spacing: -1px;
-  text-wrap: nowrap;
 
   margin-bottom: var(--space-32);
 }
@@ -174,7 +173,6 @@ ion-icon {
   font-size: var(--fs-30);
   font-weight: 400;
   letter-spacing: -1px;
-  text-wrap: nowrap;
 
   margin-bottom: var(--space-24);
 }

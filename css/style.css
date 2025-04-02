@@ -166,6 +166,13 @@
 }
 
 @media screen and (max-width: 48em) {
+  body:has(.hamburger-menu input:checked) {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
   .hamburger-menu {
     display: block;
   }
@@ -182,7 +189,7 @@
     cursor: pointer;
 
     position: absolute;
-    inset: 1rem 1rem auto auto;
+    inset: 2rem 2rem auto auto;
     z-index: 999;
   }
 
@@ -240,6 +247,7 @@
 
   .header-menu {
     flex-direction: column;
+    gap: var(--space-48);
     align-items: flex-start;
     position: absolute;
     inset: -2rem -4rem auto auto;
@@ -260,8 +268,13 @@
     transition: all 0.3s ease-in-out;
   }
 
+  .header-menu .btn--cta {
+    font-size: var(--fs-18);
+  }
+
   .header-links:link,
   .header-links:visited {
+    font-size: var(--fs-20);
     color: var(--tint-100);
   }
 
@@ -273,13 +286,16 @@
 
 /* GROUP: HERO */
 .section-hero {
-  height: clamp(fit-content, auto, calc(100dvh - 11rem));
+  min-height: calc(100vh - 11rem);
+  min-height: calc(100dvh - 10rem);
+
   align-content: center;
   padding: 0 var(--space-48);
 }
 
 .hero-container {
-  width: clamp(32rem, 86vw, 120rem);
+  width: clamp(30rem, 86vw, 120rem);
+  margin: 0 auto;
 
   justify-self: center;
   align-items: center;
@@ -445,8 +461,8 @@
 .services-heading {
   font-size: var(--fs-20);
   font-weight: 600;
+  text-align: center;
   letter-spacing: -1px;
-  text-wrap: nowrap;
 }
 
 .services {
@@ -770,6 +786,11 @@
   gap: 1.4rem;
 }
 
+.more-pricing-options-half {
+  display: flex;
+  gap: 1.4rem;
+}
+
 .more-pricing-options ion-icon {
   padding-right: var(--space-04);
 }
@@ -855,7 +876,6 @@
 
 .tips-link {
   display: flex;
-  align-items: center;
   gap: 2rem;
 
   text-decoration: none;
@@ -880,9 +900,9 @@
 }
 
 .tips-container img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
   height: 6.2rem;
+  width: 6.2rem;
+  object-fit: cover;
   border-radius: 7px;
 }
 
@@ -945,6 +965,7 @@
 
   display: flex;
   justify-content: space-between;
+  gap: var(--space-12);
   padding-block: var(--space-12);
 }
 
