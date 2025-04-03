@@ -3,6 +3,7 @@
   .header {
     justify-self: unset;
     width: 100%;
+    gap: unset;
     padding: 0 var(--space-16);
   }
 
@@ -63,10 +64,6 @@
 @media screen and (max-width: 48em) {
   .header {
     padding: 0 var(--space-48);
-  }
-
-  .header-menu {
-    min-width: 50vw;
   }
 
   .hero-grid {
@@ -131,6 +128,10 @@
 
 /* 640px */
 @media screen and (max-width: 40em) {
+  .header-menu {
+    min-width: 50vw;
+  }
+
   .services ul {
     font-size: var(--fs-16);
   }
@@ -177,6 +178,10 @@
 @media screen and (max-width: 32em) {
   .grid--3-cols {
     grid-template-columns: 1fr;
+  }
+
+  .header-menu {
+    min-width: 60vw;
   }
 
   .grid--about {
@@ -240,8 +245,8 @@
     margin: 0 auto var(--space-96);
   }
 
-  .hamburger-menu {
-    inset: 2rem 0 auto auto;
+  .header-menu {
+    min-width: 80vw;
   }
 
   .hero-container {

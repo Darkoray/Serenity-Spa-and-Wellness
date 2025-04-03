@@ -40,7 +40,7 @@
   color: var(--accent-100);
 }
 
-/* My version of hamburger menu that doesnt work properly
+/*  My version of hamburger menu that doesnt work properly
 
 @media screen and (max-width: 48em) {
   #toggle,
@@ -166,13 +166,6 @@
 }
 
 @media screen and (max-width: 48em) {
-  body:has(.hamburger-menu input:checked) {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-  }
-
   .hamburger-menu {
     display: block;
   }
@@ -189,8 +182,8 @@
     cursor: pointer;
 
     position: absolute;
-    inset: 2rem 2rem auto auto;
-    z-index: 999;
+    inset: 0.4rem -1rem auto auto;
+    z-index: 1000;
   }
 
   .hamburger-menu *:focus {
@@ -240,7 +233,6 @@
     background-color: var(--accent-100);
     height: 0;
   }
-
   .hamburger-menu input:checked {
     background-color: var(--accent-100);
   }
@@ -260,10 +252,17 @@
     padding: var(--space-96) var(--space-24);
     background-color: #426249db;
     backdrop-filter: blur(5px);
-    z-index: 99;
+    z-index: 999;
+  }
+
+  .hamburger-menu:has(input:checked) {
+    position: fixed;
+    inset: 2rem 2rem auto auto;
+    z-index: 1000;
   }
 
   .hamburger-menu:has(input:checked) + .header-nav > .header-menu {
+    position: fixed;
     translate: 0;
     transition: all 0.3s ease-in-out;
   }
@@ -955,9 +954,19 @@
   color: var(--gray-100);
   border: none;
 }
+
 .footer-link:hover,
 .footer-link:active {
   border: none;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-medias ion-icon {
+  font-size: var(--fs-30);
 }
 
 .footer-end {

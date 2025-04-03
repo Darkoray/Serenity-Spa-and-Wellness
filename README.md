@@ -54,17 +54,25 @@ Contact Information
 
 <!-- // add img alt texts -->
 
-// resize imgs
+<!-- // resize imgs -->
 
-// make low quality imgs
+<!-- // make low quality imgs -->
 
 // add a membership form
+
+// add gift card page
+
+// add offer page
+
+// add appointment
+
+// add sub-pages
+
+// add 404 page
 
 <!-- // improve container -->
 
 <!-- // improve testimonial -->
-
-// add sub-pages
 
 <!-- // link up all links and buttons -->
 
@@ -80,8 +88,25 @@ Contact Information
 
 <!-- // fix team -->
 
-// add favicons
+<!-- // add favicons -->
 
 <!-- // style focus -->
 
-// fix hamburger menu when open
+<!-- // fix hamburger menu when open -->
+
+<!-- // add follow icons -->
+
+<!-- img used -->
+<!-- facemask.jpg
+applying-oil.jpg
+facemask-3.jpg
+manicure.jpg
+bathtub.jpg
+smoke.jpg
+bath.jpg
+back-massage.jpg
+towel-candle.jpg
+stone-massage.jpg
+mud-mask.jpg
+stress.jpg
+mud-mask-2.jpg -->
