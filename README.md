@@ -33,4 +33,3 @@ Quick access to website sections and pages:
 - [Gift Cards](index.html#gift-card) - Digital gift options
 - [Special Offers](index.html#special-offer) - Discounts and promotions
 - [Book Appointment](index.html#appointment) - Booking appointment
-- [Memberships](index.html#membership) - Our membership form
