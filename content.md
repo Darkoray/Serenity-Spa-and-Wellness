@@ -98,6 +98,12 @@ Our professionals are trained to provide the best wellness and beauty treatments
 - **Sarah Thompson** – Lead Massage Therapist, 10+ years of experience
 - **Marie Carter** – Certified Skincare Expert, specializes in organic facials
 - **James Rodriguez** – Hair & Beauty Stylist, expert in hair treatments
+- **Priya Patel** – Ayurvedic Specialist, trained in traditional wellness therapies
+- **Marcus Chen** – Deep Tissue Expert, with sports massage certification
+- **Gabriella Morales** – Luxury Nail Technician, master of spa manicures
+- **Dr. Noah Bennett** – Dermatology Consultant, medical skincare specialist
+- **Lena Petrov** – Aromatherapist, creates custom essential oil blends
+- **Tyler Johnson** – Spa Director, 15 years in wellness hospitality
 
 [View Full Team →](#)
 
@@ -129,9 +135,25 @@ Our professionals are trained to provide the best wellness and beauty treatments
 - Hair Spa Treatment
 - Price: $299
 
-📷 **Image 11: A happy couple enjoying a massage together**.
+## **Current Promotions - 10% Discount**
 
-[Explore All Packages →](#)
+### **Mini Relaxation Package**
+
+- 30-minute Swedish Massage
+- Express Hydrating Facial
+- Price: $79
+
+### **Skin Essentials**
+
+- 45-minute Anti-Aging Facial
+- Hand & Foot Massage
+- Price: $89
+
+### **Quick Escape Package**
+
+- 30-minute Aromatherapy Massage
+- Herbal Steam Bath
+- Price: $69
 
 ---
 
@@ -165,6 +187,42 @@ Wear comfortable clothing. We provide robes and slippers for your relaxation.
 
 Yes, cancellations or reschedules are accepted up to 12 hours before the appointment.
 
+### Is there parking available at the spa?
+
+Yes, we offer complimentary valet parking for all guests. Self-parking is also available in the adjacent lot.
+
+### Do you offer services for pregnant women?
+
+Absolutely! We have specialized prenatal massages performed by certified therapists. Please inform us when booking.
+
+### What payment methods do you accept?
+
+We accept all major credit cards, Apple Pay, Google Pay, and cash. Gift cards can also be redeemed.
+
+### Should I arrive early for my appointment?
+
+We recommend arriving 15 minutes early to complete any paperwork and enjoy our relaxation lounge.
+
+### Are gratuities included in the service price?
+
+Gratuities are not included but greatly appreciated. The standard tipping rate is 15-20%.
+
+### Can I request a specific therapist?
+
+Yes, you may request a therapist when booking. We'll do our best to accommodate your preference.
+
+### Do you offer couples massages in the same room?
+
+Yes! Our couple's suite features side-by-side massages - perfect for partners or friends.
+
+### What's your late arrival policy?
+
+Late arrivals will receive treatment for the remaining scheduled time to avoid delaying other guests.
+
+### Are your products cruelty-free and organic?
+
+We use only vegan, cruelty-free products. 90% of our skincare line is organic or naturally-derived.
+
 [View All FAQs →](#)
 
 ---
@@ -180,18 +238,6 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 - Redeemable online or in-store
 
 [Buy a Gift Card →](#)
-
----
-
-## **Special Offers & Memberships**
-
-📷 **Image 15: A banner with “20% Off First Visit” text in a calming design**
-
-- **First-Time Guest Special:** Get 20% off your first massage or facial.
-- **Loyalty Membership:** Enjoy exclusive perks with our Serenity Spa membership.
-- **Couple’s Retreat Package:** Book a couple’s spa day and receive a complimentary aromatherapy session.
-
-[See All Offers →](#)
 
 ---
 
@@ -211,22 +257,128 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 > “From the moment I walked in, I felt at peace. The staff is incredibly welcoming, and the treatments are pure bliss!”
 > — _Olivia D._
 
+> "The hot stone massage melted away all my stress. I left feeling like a brand new person!"  
+> — _Michael T._
+
+> "As someone with sensitive skin, I was amazed by how gentle yet effective their facials are. My complexion has never looked better!"  
+> — _Aisha K._
+
+> "The couples' retreat package was worth every penny! My partner and I left completely rejuvenated and closer than ever."  
+> — _David & Rachel S._
+
+> "I've been to many spas, but Serenity Spa's attention to detail is unmatched. Every scent, every touch, every moment is curated for pure relaxation."  
+> — _Nathan P._
+
+> "Their aromatherapy massage is divine. The scents alone transport you to another world, and the skilled therapists make it unforgettable."  
+> — _Isabella W._
+
+> "The membership program is a game-changer! As a regular, I love the exclusive perks and personalized care. This spa truly feels like a second home."  
+> — _Ethan R._
+
 ---
 
 ### Photo gallery
 
 ---
 
-## **Book Your Appointment Today**
+## Book Your Appointment Today
 
-📷 **Image 17: Calming reception desk image or spa waiting area**
+**Step into serenity with just a few clicks or a simple call.**
 
-Relax and rejuvenate at Serenity Spa. Book your session today and experience the ultimate relaxation.
+### How to Book:
 
-- A **calming reception desk image or spa waiting area**.  
-  Unwind and rejuvenate at Serenity Spa. Book your session today and experience the ultimate relaxation.
+- **Online Booking:** [Book now](#) (Fast & secure - Fill up the appointment form to book now!)
+- **By Phone:** Call [312-555-8723](#) (Mon-Sun, 9am-8pm)
+- **In-Person:** Visit us at 145 Greenview Ave., Suite 3B, Chicago, IL 60610
 
-[Book Now →](#)
+---
+
+## Appointment Request Form
+
+Complete this form to reserve your tranquil experience. A concierge will confirm your booking via email within 2 business hours.
+
+### 1. Personal Information
+
+**About**
+
+Full Name:
+Gender:
+Age:
+
+**Contact Details**  
+Phone:  
+Email:
+
+### 2. Service Selection
+
+**Please select your desired treatment(s) or Package:**
+
+#### Massage Therapies
+
+☐ Swedish Massage  
+☐ Deep Tissue Massage  
+☐ Aromatherapy Massage  
+☐ Hot Stone Massage
+
+#### Skin & Facials
+
+☐ Hydrating Facial  
+☐ Anti-Aging Facial  
+☐ Acne Treatment  
+☐ Gold Glow Facial
+
+#### Body Treatments
+
+☐ Body Scrubs & Wraps  
+☐ Detoxifying Mud Therapy  
+☐ Herbal Steam Bath
+
+#### Hair & Nails
+
+☐ Hair Spa & Styling  
+☐ Manicure & Pedicure  
+☐ Waxing & Threading
+
+**_or_**
+
+#### Spa Packages
+
+☐ Serenity Signature  
+☐ Blissful Retreat  
+☐ Couple’s Escape  
+☐ Mini Relaxation Package  
+☐ Skin Essentials  
+☐ Quick Escape Package
+
+_Add-ons_:  
+☐ Scalp Massage (+$25)
+☐ Paraffin Hand Treatment (+$20)
+
+### 3. Personalize Your Experience
+
+**Preferred Date**: / / (Mon-Sun)  
+**Preferred Time**: (9:00 AM - 8:00 PM)
+
+**Therapist Request**:  
+○ No preference  
+○ Preferred therapist:
+
+**Special Considerations**:  
+□ Mobility accommodations  
+□ Pregnancy (please specify trimester: )  
+□ Allergies:
+
+### 4. Additional Notes
+
+_Optional requests or questions_:
+
+### Policies
+
+- I understand the 12-hour cancellation policy
+- I consent to receive appointment reminders
+
+_All information is kept confidential per our Privacy Policy.  
+By submitting, you agree to Serenity Spa's Terms of Service._
 
 ---
 
@@ -242,15 +394,3 @@ Relax and rejuvenate at Serenity Spa. Book your session today and experience the
 [Instagram](#) • [Facebook](#) • [Twitter](#) • [Pinterest](#)
 
 ---
-
-## **Additional Links**
-
-- [Services & Pricing](#)
-- [Meet Our Experts](#)
-- [Blog (Wellness Tips)](#)
-- [Gift Cards](#)
-- [Privacy & Terms](#)
-
----
-
-**Total Images: 18**

@@ -1,4 +1,11 @@
 {
+  "name": "Serenity Spa & Wellness",
+  "short_name": "SerenitySpa",
+  "description": "Escape, Relax, and Renew at Serenity Spa & Wellness.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#dce1cb",
+  "theme_color": "#88B293",
   "icons": [
     {
       "src": "img/icons/favicon-192.png",
@@ -8,7 +15,7 @@
     {
       "src": "img/icons/favicon-512.png",
       "type": "image/png",
-      "sizes": "512X512"
+      "sizes": "512x512"
     }
   ]
 }

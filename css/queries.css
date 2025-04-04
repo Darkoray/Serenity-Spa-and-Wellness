@@ -33,6 +33,7 @@
   .section-how li {
     gap: var(--space-32);
     flex-direction: unset;
+    align-items: center;
   }
 
   .step-number-line {
