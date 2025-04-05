@@ -31,7 +31,6 @@ Serenity Spa & Wellness is a responsive website I made to **learn**, **practice*
 
 Quick access to website sections and pages:
 
-<<<<<<< HEAD
 - [Hero](/index.html#hero) - Main welcome section
 - [About](/index.html#about) - About our services
 - [How It Works](/index.html#how) - 3-step process visualization
@@ -44,19 +43,3 @@ Quick access to website sections and pages:
 - [Blog & Tips](/index.html#tips) - Blog and tips articles
 - [Contact](/index.html#contacts) - Our social media links and contact informations
 - [Book Appointment](/html/appointment.html) - Booking appointment
-=======
-- [Hero](index.html#hero) - Main welcome section
-- [About](index.html#about) - About our services
-- [How It Works](index.html#how) - 3-step process visualization
-- [Services](index.html#services) - Our services and details
-- [Meet Our Team](index.html#team) - Our experts and their bio
-- [Testimonials](index.html#testimonials) - Client reviews
-- [Spa Gallery](index.html#gallery) - Our environment visuals
-- [Pricing & Packages](index.html#pricing) - Our service packages
-- [FAQ](index.html#faq) - Frequently asked questions
-- [Blog & Tips](index.html#tips) - Blog and tips articles
-- [Contact](index.html#contacts) - Our social media links and contact informations
-- [Gift Cards](index.html#gift-card) - Digital gift options
-- [Special Offers](index.html#special-offer) - Discounts and promotions
-- [Book Appointment](index.html#appointment) - Booking appointment
->>>>>>> 970cfa71d89802cbcb00bd507efc65433fbb22dc
