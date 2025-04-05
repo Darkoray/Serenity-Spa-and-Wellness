@@ -11,15 +11,13 @@ At **Serenity Spa & Wellness**, we believe in the power of self-care. Life is bu
 
 From luxurious facials to deep tissue massages, every treatment is designed with your well-being in mind.
 
-📷 **Image 1: Large, high-resolution spa interior image (dim lighting, candles, relaxing ambiance)**.
-
 ---
 
 ## Branding
 
 - **Headline:** Rejuvenate Your Body. Refresh Your Mind.
 - **Slogan** Escape, Relax, Renew
-- **Brand Color:** `#76A383` `#8B6F5B`
+- **Brand Color:** `#88B293` `#D08A5B`
 
 ---
 
@@ -29,11 +27,7 @@ From luxurious facials to deep tissue massages, every treatment is designed with
 
 Indulge in pure relaxation at Serenity Spa & Wellness. We offer a variety of spa treatments, from massages to skincare, all designed to promote inner peace and outer beauty. Step into a world of tranquility today.
 
-📷 **Image 2: A smiling woman receiving a facial massage or someone meditating in a spa robe**.
-
 ## **Our Services**
-
-📷 **Image 3: A flat lay of spa essentials (oils, towels, candles, and herbal ingredients)**.
 
 ### **Tranquil Touch**
 
@@ -44,8 +38,6 @@ Relieve stress and tension with our expert massage therapies, customized to your
 - Aromatherapy Massage
 - Hot Stone Massage
 
-📷 **Image 4: A person receiving a back massage in a peaceful setting**.
-
 ### **Glow Facials**
 
 Restore your skin’s natural glow with our professional skincare solutions.
@@ -55,8 +47,6 @@ Restore your skin’s natural glow with our professional skincare solutions.
 - Acne Treatment
 - Gold Glow Facial
 
-📷 **Image 5: A close-up of a woman receiving a facial with a face mask**.
-
 ### **Body Bliss**
 
 Nourish and detox your body with our spa rituals.
@@ -64,8 +54,6 @@ Nourish and detox your body with our spa rituals.
 - Body Scrubs & Wraps
 - Detoxifying Mud Therapy
 - Herbal Steam Bath
-
-📷 **Image 6: A woman wrapped in a towel with a body scrub treatment**.
 
 ### **Hair & Nails**
 
@@ -75,8 +63,6 @@ Enhance your beauty with our expert hair and nail care.
 - Manicure & Pedicure
 - Waxing & Threading
 
-📷 **Image 7: A professional hair spa treatment or luxury manicure session**.
-
 ---
 
 ## **How It Works**
@@ -85,13 +71,9 @@ Enhance your beauty with our expert hair and nail care.
 2. **Book an Appointment:** Pick a convenient time for your visit our online booking makes it simple.
 3. **Relax & Unwind:** Let our expert therapists take care of the rest while you enjoy your moment of tranquility.
 
-📷 **Image 8: A step-by-step illustration or icons(booking, appointment, relaxation)** .
-
 ---
 
 ## **Meet Our Team**
-
-📷 **Image 9: A group photo of smiling spa professionals in a calm setting**.
 
 Our professionals are trained to provide the best wellness and beauty treatments.
 
@@ -105,13 +87,9 @@ Our professionals are trained to provide the best wellness and beauty treatments
 - **Lena Petrov** – Aromatherapist, creates custom essential oil blends
 - **Tyler Johnson** – Spa Director, 15 years in wellness hospitality
 
-[View Full Team →](#)
-
 ---
 
 ## **Our Spa Packages**
-
-📷 **Image 10: A calming spa setup with candles and flowers**.
 
 ### **Blissful Retreat Package**
 
@@ -159,21 +137,15 @@ Our professionals are trained to provide the best wellness and beauty treatments
 
 ## **Blog & Wellness Tips**
 
-📷 **Image 12: A peaceful nature image or **.
-
 Stay informed with self-care, skincare, and relaxation tips.
 
 - **5 Ways to Relieve Stress Naturally**
 - **How to Choose the Right Facial for Your Skin Type**
 - **The Benefits of Aromatherapy for Mind & Body**
 
-[Read More →](#)
-
 ---
 
 ## **FAQ**
-
-📷 **Image 13: A calm, neutral-toned background with a question mark icon**.
 
 ### Do I need to book an appointment in advance?
 
@@ -223,13 +195,9 @@ Late arrivals will receive treatment for the remaining scheduled time to avoid d
 
 We use only vegan, cruelty-free products. 90% of our skincare line is organic or naturally-derived.
 
-[View All FAQs →](#)
-
 ---
 
 ## **Gift Cards**
-
-📷 **Image 14: A spa gift card in a beautifully wrapped box**.
 
 Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniversaries, or just because.
 
@@ -237,13 +205,9 @@ Give the gift of relaxation! Our spa gift cards are perfect for birthdays, anniv
 - Can be used for any service or package
 - Redeemable online or in-store
 
-[Buy a Gift Card →](#)
-
 ---
 
 ## **Customer Testimonials**
-
-📷 **Image 16: Three happy clients smiling after their treatments**
 
 > “Serenity Spa is my go-to place for relaxation! The ambiance is amazing, and the massages are heavenly.”  
 > — _Sophia M._
@@ -301,8 +265,8 @@ Complete this form to reserve your tranquil experience. A concierge will confirm
 
 **About**
 
-Full Name:
-Gender:
+Full Name:  
+Gender:  
 Age:
 
 **Contact Details**  
@@ -351,12 +315,12 @@ Email:
 ☐ Quick Escape Package
 
 _Add-ons_:  
-☐ Scalp Massage (+$25)
+☐ Scalp Massage (+$25)  
 ☐ Paraffin Hand Treatment (+$20)
 
 ### 3. Personalize Your Experience
 
-**Preferred Date**: / / (Mon-Sun)  
+**Preferred Date**: (Mon-Sun)  
 **Preferred Time**: (9:00 AM - 8:00 PM)
 
 **Therapist Request**:  
@@ -365,7 +329,7 @@ _Add-ons_:
 
 **Special Considerations**:  
 □ Mobility accommodations  
-□ Pregnancy (please specify trimester: )  
+□ Pregnancy (please specify trimester)  
 □ Allergies:
 
 ### 4. Additional Notes
@@ -384,13 +348,11 @@ By submitting, you agree to Serenity Spa's Terms of Service._
 
 ## **Contact Information**
 
-📷 **Image 18: Google Maps location screenshot of the spa.**
-
 - **Location:** 789 Bliss Avenue, New York, NY 10001
-- **Phone:** (212) 555-7890
-- **Email:** hello@serenityspa.com
+- **Phone:** 312-555-8723
+- **Email:** relax@serenityspa.com
 
 **Social Media:**  
-[Instagram](#) • [Facebook](#) • [Twitter](#) • [Pinterest](#)
+[Instagram](#) • [Facebook](#) • [Twitter](#) • [Pinterest](#) • [YouTube](#)
 
 ---

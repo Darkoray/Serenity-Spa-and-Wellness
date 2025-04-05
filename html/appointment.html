@@ -58,6 +58,7 @@
         margin: 0;
       }
 
+      /* GROUP: HOW */
       .section-how li {
         flex-direction: row;
         gap: var(--space-24);
@@ -76,6 +77,12 @@
         font-size: var(--fs-20);
       }
 
+      /* GROUP: FORM */
+      .grid--form {
+        grid-template: 1fr 2fr / 1fr 1fr;
+        row-gap: var(--space-80);
+      }
+
       .form {
         accent-color: var(--shade-100);
         border: var(--shade-100) 2px solid;
@@ -92,14 +99,6 @@
 
       .form-text {
         text-align: center;
-      }
-
-      .grid--form {
-        grid-template: 1fr 1fr / 1fr 1fr;
-      }
-
-      .section-form {
-        margin-inline: var(--space-128);
       }
 
       .form-container {
@@ -124,8 +123,69 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-self: center;
         gap: var(--space-32);
         padding-inline: var(--space-24);
+      }
+
+      .form-cell > * {
+        align-self: flex-start;
+      }
+
+      .form-cell-1 {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-32);
+      }
+
+      .form-cell-1 .cell-1-special {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-24);
+      }
+
+      .form-cell-1 .cell-1-special input {
+        padding-inline: var(--space-32);
+      }
+
+      .form-cell-1 .input-box {
+        flex-direction: row;
+      }
+
+      .form-cell-2 {
+        grid-area: 1 / 2 / -1 / 3;
+        gap: var(--space-48);
+      }
+
+      .form-cell-2 > .text {
+        font-style: italic;
+      }
+
+      .form-cell-3 label {
+        text-wrap: nowrap;
+      }
+
+      .form-cell-3 input[type="text"],
+      .form-cell-3 textarea {
+        width: 100%;
+      }
+
+      .form-cell-3 .input-box.checkbox-options:nth-of-type(1),
+      .form-cell-3 .input-box.checkbox-options:nth-of-type(2) {
+        flex-direction: row;
+      }
+
+      .form-cell-headings {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: var(--space-12);
+      }
+
+      .form-packages {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-24);
       }
 
       .form label {
@@ -138,13 +198,18 @@
         cursor: pointer;
         font-size: var(--fs-14);
         border-bottom: var(--tint-200) 2px solid;
-        padding-inline: var(--space-32);
+        border-radius: 0;
       }
 
       input[type="date"],
       input[type="time"] {
         text-transform: uppercase;
         color: var(--shade-100);
+      }
+
+      textarea {
+        background-color: transparent;
+        border-radius: 5px;
       }
 
       .type-box {
@@ -171,7 +236,7 @@
         opacity: 1;
       }
 
-      .form-cell-2 .input-box {
+      .input-box {
         display: flex;
         flex-direction: column;
         gap: var(--space-16);
@@ -179,32 +244,6 @@
 
       .grid--service-checkbox {
         grid-template: 1fr 1fr/ 1fr 1fr;
-      }
-
-      .form-cell-2 {
-        grid-area: 1 / 2 / -1 / 3;
-        gap: var(--space-48);
-      }
-
-      .form-cell-2 > .text {
-        font-style: italic;
-      }
-
-      .form-cell-2 > * {
-        align-self: flex-start;
-      }
-
-      .form-cell-headings {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        gap: var(--space-12);
-      }
-
-      .form-packages {
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-24);
       }
 
       .addons {
@@ -245,6 +284,18 @@
         align-items: center;
         gap: var(--space-12);
       }
+
+      .btn--cta {
+        font-family: inherit;
+        font-size: var(--fs-16);
+        font-weight: 600;
+        text-wrap: nowrap;
+        text-decoration: none;
+
+        border: 2px solid;
+        border-radius: 100px;
+        padding: var(--space-12) var(--space-32);
+      }
     </style>
   </head>
 
@@ -261,30 +312,30 @@
         <nav class="header-nav">
           <ul class="header-menu list">
             <li>
+              <a href="../index.html" class="header-links">Home</a>
+            </li>
+
+            <li>
               <a href="../index.html#services" class="header-links"
                 >Services</a
               >
             </li>
 
             <li>
-              <a href="../index.html##testimonials" class="header-links"
+              <a href="../index.html#testimonials" class="header-links"
                 >Testimonials</a
               >
             </li>
 
             <li>
-              <a href="../index.html##faq" class="header-links">F.A.Q</a>
-            </li>
-
-            <li>
-              <a href="../index.html##contacts" class="header-links"
-                >Contact</a
+              <a href="../index.html#pricing" class="header-links"
+                >Our Packages</a
               >
             </li>
 
             <li>
-              <a href="html/membership.html" class="btn btn--cta"
-                >Join Membership</a
+              <a href="/html/appointment.html#form" class="btn btn--cta"
+                >Reserve Today!</a
               >
             </li>
           </ul>
@@ -352,7 +403,7 @@
       </section>
 
       <section class="section-form" id="form">
-        <div class="form-container">
+        <div class="container form-container">
           <form class="form" data-netlify="true" required>
             <div class="form-heading">
               <img
@@ -361,7 +412,7 @@
                 class="logo"
               />
 
-              <h2 class="heading-primary">Appointment Request Form</h2>
+              <h2 class="heading-secondary">Appointment Request Form</h2>
               <p class="text form-text">
                 Complete this form to reserve your tranquil experience. A
                 concierge will confirm your booking via email within 2
@@ -371,47 +422,74 @@
 
             <div class="grid grid--form">
               <div class="form-cell form-cell-1">
-                <h3 class="heading-tertiary">Personal Information</h3>
+                <h3 class="heading-tertiary form-cell-headings">
+                  Personal Information
+                </h3>
 
-                <div class="input-box type-box">
-                  <input type="text" id="name" required />
-                  <label for="name" class="text">Full Name</label>
+                <div class="checkbox-options cell-1-special">
+                  <div class="input-box type-box">
+                    <input
+                      type="text"
+                      id="full-name"
+                      name="full-name"
+                      required
+                    />
+                    <label for="full-name" class="text">Full Name</label>
+                  </div>
+
+                  <div class="input-box type-box">
+                    <input
+                      type="number"
+                      id="phone"
+                      name="phone"
+                      required
+                    />
+                    <label for="phone" class="text">Phone</label>
+                  </div>
+
+                  <div class="input-box type-box">
+                    <input type="email" id="email" name="email" required />
+                    <label for="email" class="text">Email</label>
+                  </div>
                 </div>
 
-                <div class="input-box type-box">
-                  <input type="text" id="phone" required />
-                  <label for="phone" class="text">Phone</label>
-                </div>
+                <div class="input-box checkbox-options">
+                  <p class="text">Gender</p>
 
-                <div class="input-box type-box">
-                  <input type="email" required />
-                  <label for="email" id="email" class="text">Email</label>
-                </div>
-
-                <div class="input-box">
-                  <p class="checkbox-heading">Gender</p>
-                  <label class="text"
+                  <label class="text" for="gender-male"
                     ><input
                       type="radio"
+                      id="gender-male"
                       name="gender"
+                      value="male"
                       required
                     />Male</label
                   >
 
-                  <label class="text">
-                    <input type="radio" name="gender" required />Female
-                  </label>
+                  <label class="text" for="gender-female"
+                    ><input
+                      type="radio"
+                      id="gender-female"
+                      name="gender"
+                      value="female"
+                    />Female</label
+                  >
 
-                  <label class="text">
-                    <input type="radio" name="gender" required />Prefer not
-                    to say
-                  </label>
+                  <label class="text" for="gender-rather-not-say"
+                    ><input
+                      type="radio"
+                      id="gender-rather-not-say"
+                      name="gender"
+                      value="rather-not-say"
+                    />Rather not say</label
+                  >
                 </div>
 
-                <div class="input-box">
-                  <label class="text">Age</label
-                  ><input
+                <div class="input-box checkbox-options">
+                  <label class="text" for="age">Age</label>
+                  <input
                     type="number"
+                    id="age"
                     name="age"
                     min="12"
                     max="99"
@@ -434,59 +512,80 @@
                   <div class="service-checkbox input-box">
                     <p class="text checkbox-heading">Spa Packages</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
-                        ><input
+                      <label class="text">
+                        <input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="serenity-Signature"
+                          name="packages[]"
+                          value="serenity-Signature"
                         />Serenity Signature</label
                       >
 
-                      <label for="name" class="text"
-                        ><input
+                      <label class="text">
+                        <input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="blissful-retreat"
+                          name="package[]"
+                          value="blissful-retreat"
                         />Blissful Retreat</label
                       >
 
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="couple’s-escape"
+                          name="package[]"
+                          value="couple’s-escape"
                         />Couple’s Escape
                       </label>
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Mini
-                        Relaxation Package
+                      <label class="text">
+                        <input
+                          type="checkbox"
+                          id="mini-relaxation"
+                          name="package[]"
+                          value="mini-relaxation"
+                        />Mini Relaxation
                       </label>
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Skin
-                        Essentials
+                      <label class="text">
+                        <input
+                          type="checkbox"
+                          id="skin-essentials"
+                          name="package[]"
+                          value="skin-essentials"
+                        />Skin Essentials
                       </label>
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Quick
-                        Escape Package
+                      <label class="text">
+                        <input
+                          type="checkbox"
+                          id="quick-escape"
+                          name="package[]"
+                          value="quick-escape"
+                        />Quick Escape
                       </label>
                     </div>
                   </div>
+
                   <div class="service-checkbox input-box">
                     <p class="text addons">Add-ons</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Scalp
-                        Massage (+$25)</label
-                      >
-
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="scalp-massage"
+                          name="addons[]"
+                          value="scalp-massage"
+                        />Scalp Massage (+$25)</label
+                      >
+
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="paraffin-hand-treatment"
+                          name="addons[]"
+                          value="paraffin-hand-treatment"
                         />Paraffin Hand Treatment (+$20)</label
                       >
                     </div>
@@ -499,30 +598,40 @@
                   <div class="input-box">
                     <p class="text checkbox-heading">Massage Therapies</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="swedish-massage"
+                          name="massage-therapies[]"
+                          value="swedish-massage"
                         />Swedish Massage</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Deep
-                        Tissue Massage</label
-                      >
-
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="deep-tissue-massage"
+                          name="massage-therapies[]"
+                          value="deep-tissue-massage"
+                        />Deep Tissue Massage</label
+                      >
+
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="aromatherapy-massage"
+                          name="massage-therapies[]"
+                          value="aromatherapy-massage"
                         />Aromatherapy Massage</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Hot
-                        Stone Massage</label
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="hot-stone-massage"
+                          name="massage-therapies[]"
+                          value="hot-stone-massage"
+                        />Hot Stone Massage</label
                       >
                     </div>
                   </div>
@@ -530,30 +639,40 @@
                   <div class="input-box">
                     <p class="text checkbox-heading">Skin & Facials</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="hydrating-facial"
+                          name="skin-facials[]"
+                          value="hydrating-facial"
                         />Hydrating Facial</label
                       >
 
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="anti-aging-facial"
+                          name="skin-facials[]"
+                          value="anti-aging-facial"
                         />Anti-Aging Facial</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Acne
-                        Treatment</label
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="acne-treatment"
+                          name="skin-facials[]"
+                          value="acne-treatment"
+                        />Acne Treatment</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Gold
-                        Glow Facial</label
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="gold-glow-facial"
+                          name="skin-facials[]"
+                          value="gold-glow-facial"
+                        />Gold Glow Facial</label
                       >
                     </div>
                   </div>
@@ -561,22 +680,31 @@
                   <div class="input-box">
                     <p class="text checkbox-heading">Body Treatments</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Body
-                        Scrubs & Wraps</label
-                      >
-
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="body-scrubs-wraps"
+                          name="body-treatments[]"
+                          value="body-scrubs-wraps"
+                        />Body Scrubs & Wraps</label
+                      >
+
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="detoxifying-mud-therapy"
+                          name="body-treatments[]"
+                          value="detoxifying-mud-therapy"
                         />Detoxifying Mud Therapy</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Herbal
-                        Steam Bath</label
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="herbal-steam-bath"
+                          name="body-treatments[]"
+                          value="herbal-steam-bath"
+                        />Herbal Steam Bath</label
                       >
                     </div>
                   </div>
@@ -584,22 +712,31 @@
                   <div class="input-box">
                     <p class="text checkbox-heading">Hair & Nails</p>
                     <div class="checkbox-options">
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Hair
-                        Spa & Styling</label
-                      >
-
-                      <label for="name" class="text"
+                      <label class="text"
                         ><input
                           type="checkbox"
-                          id="name"
-                          required
+                          id="hair-spa-styling"
+                          name="hair-nails[]"
+                          value="hair-spa-styling"
+                        />Hair Spa & Styling</label
+                      >
+
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="manicure-pedicure"
+                          name="hair-nails[]"
+                          value="manicure-pedicure"
                         />Manicure & Pedicure</label
                       >
 
-                      <label for="name" class="text"
-                        ><input type="checkbox" id="name" required />Waxing
-                        & Threading</label
+                      <label class="text"
+                        ><input
+                          type="checkbox"
+                          id="waxing-threading"
+                          name="hair-nails[]"
+                          value="waxing-threading"
+                        />Waxing & Threading</label
                       >
                     </div>
                   </div>
@@ -607,41 +744,61 @@
               </div>
 
               <div class="form-cell form-cell-3">
-                <h3 class="heading-tertiary">
+                <h3 class="heading-tertiary form-cell-headings">
                   Personalize Your Experience
                 </h3>
 
-                <div class="input-box">
-                  <label for="date" class="text checkbox-heading"
+                <div class="input-box checkbox-options">
+                  <label for="appointment-date" class="text"
                     >Preferred Date (Mon-Sun)</label
                   >
-                  <input type="date" id="date" required />
+                  <input
+                    type="date"
+                    id="appointment-date"
+                    name="appointment-date"
+                    min="2025-01-01"
+                    max="2025-12-31"
+                    required
+                  />
                 </div>
 
-                <div class="input-box">
-                  <label for="time" class="text checkbox-heading"
+                <div class="input-box checkbox-options">
+                  <label for="appointment-time" class="text"
                     >Preferred Time (9:00 AM - 8:00 PM)</label
                   >
-                  <input type="time" id="time" required />
+                  <input
+                    type="time"
+                    id="appointment-time"
+                    name="appointment-time"
+                    min="09:00"
+                    max="20:00"
+                    required
+                  />
                 </div>
 
-                <div class="input-box">
+                <div class="input-box checkbox-options">
                   <p class="checkbox-heading">Therapist Request</p>
-                  <label class="text"
-                    ><input type="radio" name="therapist" required />No
-                    preference</label
+                  <label class="text">
+                    <input
+                      type="radio"
+                      id="no-preference"
+                      name="therapist-request[]"
+                      value="no-preference"
+                      checked
+                    />No Preference</label
                   >
 
                   <label class="text">
                     <input
                       type="radio"
-                      name="therapist"
-                      required
-                    />Preferred therapist:
+                      id="preferred-therapist"
+                      name="therapist-request[]"
+                      value="preferred-therapist"
+                    />Preferred Therapist
                     <input
                       type="text"
-                      name="preferred-therapist"
-                      id="preferred-therapist"
+                      id="preferred-therapist-name"
+                      name="therapist-request[]"
                     />
                   </label>
                 </div>
@@ -651,57 +808,96 @@
                     Special Considerations
                   </p>
                   <div class="checkbox-options">
-                    <label for="name" class="text"
-                      ><input type="checkbox" id="name" required />Mobility
-                      accommodations</label
+                    <label class="text"
+                      ><input
+                        type="checkbox"
+                        id="mobility-accommodations"
+                        name="special-considerations[]"
+                        value="mobility-accommodations"
+                      />Mobility Accommodations</label
                     >
                   </div>
 
                   <div class="checkbox-options">
-                    <label for="name" class="text"
+                    <label class="text"
                       ><input
                         type="checkbox"
-                        id="name"
-                        required
-                      />Pregnancy (please specify trimester)
-                      <input type="number" min="0" max="3" />
+                        id="pregnancy"
+                        name="special-considerations[]"
+                        value="pregnancy"
+                      />Pregnancy (Please specify trimester)
+                      <input
+                        type="number"
+                        id="pregnancy-trimester"
+                        name="special-considerations[]"
+                        value="pregnancy-trimester"
+                        min="0"
+                        max="3"
+                      />
                     </label>
                   </div>
 
                   <div class="checkbox-options">
-                    <label for="name" class="text"
+                    <label class="text"
                       ><input
                         type="checkbox"
-                        id="name"
-                        required
-                      />Allergies:
-                      <input type="text" name="allergies" id="allergies" />
+                        id="allergy"
+                        name="special-considerations[]"
+                        value="allergy"
+                      />Allergies
+                      <input
+                        type="text"
+                        id="allergy-name"
+                        name="special-considerations[]"
+                      />
                     </label>
                   </div>
+                </div>
 
-                  <div class="checkbox-options">
-                    <label for="name" class="text">
-                      <textarea name="" id=""></textarea>
-                    </label>
-                  </div>
+                <div class="checkbox-options">
+                  <p class="checkbox-heading">Additional Notes</p>
+                  <label class="text textarea">
+                    Optional requests or questions
+                    <textarea
+                      name="additional-notes"
+                      id="additional-notes"
+                    ></textarea>
+                  </label>
                 </div>
               </div>
             </div>
 
             <div class="policy-box">
-              <div class="policies">
-                <label for="name" class="text"
-                  ><input type="checkbox" id="name" required />I understand
-                  the 12-hour cancellation policy</label
+              <div class="policies checkbox-options">
+                <label class="text"
+                  ><input
+                    type="checkbox"
+                    id="appointment-reminder"
+                    name="accepted-policies[]"
+                    value="appointment-reminder"
+                    checked
+                  />I consent to receive reminders via SMS and Email</label
                 >
 
-                <label for="name" class="text"
-                  ><input type="checkbox" id="name" required />I consent to
-                  receive appointment reminders</label
+                <label class="text"
+                  ><input
+                    type="checkbox"
+                    id="cancellation-policy"
+                    name="accepted-policies[]"
+                    value="cancellation-policy"
+                    required
+                  />I understand the 12-hour cancellation policy</label
                 >
               </div>
+
               <div class="btn--submit">
-                <a href="html/membership.html" class="btn--cta">Reserve</a>
+                <button
+                  href="html/membership.html"
+                  class="btn btn--cta"
+                  type="submit"
+                >
+                  Reserve
+                </button>
               </div>
             </div>
           </form>
@@ -715,7 +911,7 @@
           <div class="footer-logo">
             <a href="#">
               <img
-                src="img/icons/logo-white.svg"
+                src="../img/icons/logo-white.svg"
                 alt="logo"
                 class="logo"
                 loading="lazy"
@@ -724,7 +920,8 @@
 
             <div class="social-medias">
               <a
-                href="#"
+                href="/html/non-existent-page.html"
+                target="_blank"
                 class="footer-link footer-top-link"
                 title="Facebook"
               >
@@ -732,14 +929,16 @@
               </a>
 
               <a
-                href="#"
+                href="/html/non-existent-page.html"
+                target="_blank"
                 class="footer-link footer-top-link"
                 title="Instagram"
                 ><ion-icon name="logo-instagram"></ion-icon>
               </a>
 
               <a
-                href="#"
+                href="/html/non-existent-page.html"
+                target="_blank"
                 class="footer-link footer-top-link"
                 title="Pinterest"
               >
@@ -747,7 +946,8 @@
               </a>
 
               <a
-                href="#"
+                href="/html/non-existent-page.html"
+                target="_blank"
                 class="footer-link footer-top-link"
                 title="Twitter"
               >
@@ -755,7 +955,8 @@
               </a>
 
               <a
-                href="#"
+                href="/html/non-existent-page.html"
+                target="_blank"
                 class="footer-link footer-top-link"
                 title="Youtube"
               >
@@ -787,48 +988,63 @@
           <div class="footer-explore">
             <p class="footer-title">Explore</p>
             <a
-              href="#how"
+              href="../index.html#"
+              target="_blank"
+              class="footer-link footer-top-link"
+              >Home</a
+            >
+            <a
+              href="../index.html#how"
+              target="_blank"
               class="footer-link footer-top-link icon-container"
               >How It Works</a
             >
-            <a href="#services" class="footer-link footer-top-link"
-              >Services</a
-            >
-            <a href="#team" class="footer-link footer-top-link"
+
+            <a
+              href="/html/team.html"
+              class="footer-link footer-top-link"
+              target="_blank"
               >Our Team</a
             >
-            <a href="#testimonials" class="footer-link footer-top-link"
+            <a
+              href="/html/testimonials.html"
+              target="_blank"
+              class="footer-link footer-top-link"
               >Testimonials</a
             >
-            <a href="#faq" class="footer-link footer-top-link">F.A.Q</a>
+            <a
+              href="/html/faq.html"
+              target="_blank"
+              class="footer-link footer-top-link"
+              >F.A.Q</a
+            >
           </div>
 
           <div class="quick-links">
             <p class="footer-title">Quick Links</p>
             <a
-              href="/html/special-offer.html"
-              class="footer-link footer-top-link"
-              >Our Packages</a
-            >
-            <a
-              href="html/gift-card.html"
-              class="footer-link footer-top-link"
-              >Gift Cards</a
-            >
-            <a
-              href="html/special-offer.html"
-              class="footer-link footer-top-link"
-              >Special Offers</a
-            >
-            <a
-              href="html/appointment.html"
+              href="/html/appointment.html"
+              target="_blank"
               class="footer-link footer-top-link"
               >Book Your Appointment</a
             >
             <a
-              href="html/membership.html"
+              href="/html/pricing.html"
+              target="_blank"
               class="footer-link footer-top-link"
-              >Memberships</a
+              >Our Packages</a
+            >
+            <a
+              href="/html/under-construction.html"
+              target="_blank"
+              class="footer-link footer-top-link"
+              >Gift Cards</a
+            >
+            <a
+              href="/html/pricing.html#offer-packages"
+              target="_blank"
+              class="footer-link footer-top-link"
+              >Special Offers</a
             >
           </div>
         </div>
@@ -838,8 +1054,18 @@
             &copy; 2025 Serenity Spa & Wellness. All rights reserved.
           </p>
           <div class="policy-terms">
-            <a href="/policy" class="footer-link link">Policy</a>
-            <a href="/terms" class="footer-link link">Terms & Services</a>
+            <a
+              href="/html/under-construction.html"
+              target="_blank"
+              class="footer-link link"
+              >Policy</a
+            >
+            <a
+              href="/html/under-construction.html"
+              target="_blank"
+              class="footer-link link"
+              >Terms & Services</a
+            >
           </div>
         </div>
       </div>
