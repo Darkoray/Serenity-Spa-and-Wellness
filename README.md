@@ -46,8 +46,7 @@ Quick access to website sections and pages:
 
 ---
 
-Created by <span style="color:#ffffff
-">[Darkoray](https://github.com/Darkoray)</span> - <span style="color:#ffffff
-">[2025]</span>
-Contact: <span style="color:#ffffff
+Created by <span style="color:white
+">[Darkoray](https://github.com/Darkoray) - [2025]</span>
+Contact: <span style="color:white
 ">[soadulislam1234@gmail.com]</span>
