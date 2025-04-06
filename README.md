@@ -43,3 +43,11 @@ Quick access to website sections and pages:
 - [Blog & Tips](/index.html#tips) - Blog and tips articles
 - [Contact](/index.html#contacts) - Our social media links and contact informations
 - [Book Appointment](/html/appointment.html) - Booking appointment
+
+---
+
+Created by <span style="color:#ffffff
+">[Darkoray](https://github.com/Darkoray)</span> - <span style="color:#ffffff
+">[2025]</span>
+Contact: <span style="color:#ffffff
+">[soadulislam1234@gmail.com]</span>
