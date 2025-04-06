@@ -207,11 +207,11 @@
   }
 
   .experts-name {
-    font-size: var(--fs-44);
+    font-size: var(--fs-30);
   }
 
   .expert-text {
-    font-size: var(--fs-24);
+    font-size: var(--fs-20);
   }
 
   .services-grid {
@@ -234,7 +234,7 @@
 }
 
 /* 384px */
-@media screen and (max-width: 24em) {
+/* @media screen and (max-width: 24em) {
   .heading-primary,
   .heading-secondary,
   .heading-tertiary,
@@ -341,4 +341,4 @@
   .textarea {
     flex-direction: column;
   }
-}
+} */
