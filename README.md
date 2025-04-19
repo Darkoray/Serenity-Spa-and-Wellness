@@ -6,12 +6,24 @@ Indulge in pure relaxation at _Serenity Spa & Wellness_. We offer a variety of s
 
 ## About
 
-_Serenity Spa & Wellness_ is a responsive website I created to **learn**, **practice** and **improve** my recently learned <span style="color:#f06529
-"><b>HTML</b></span> and <span style="color:#2965f1"><b>CSS</b></span> skill.
+[![wakatime](https://wakatime.com/badge/github/Darkoray/Serenity-Spa-and-Wellness.svg)](https://wakatime.com/@72594c02-0009-4d68-ba8b-6bc52b500d86/projects/eqvtqihyqm)
 
-[![wakatime](https://wakatime.com/badge/github/Darkoray/Serenity-Spa-and-Wellness.svg)](https://wakatime.com/badge/github/Darkoray/Serenity-Spa-and-Wellness)
+_Serenity Spa & Wellness_ is a responsive website I developed to **learn**, **practice** and **improve** my recently learned <span style="color:#f06529"><b>HTML</b></span> and <span style="color:#2965f1"><b>CSS</b></span> skill.
 
-[View Full Report](https://wakatime.com/@72594c02-0009-4d68-ba8b-6bc52b500d86/projects/eqvtqihyqm)
+The course I followed-
+_[Advanced CSS and Sass](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?referralCode=93317126211B2A500938)_
+
+---
+
+## Features
+
+- Fully responsive design for all devices.
+- Custom grid system for layout flexibility.
+- Optimized for performance with Lighthouse.
+- Cross-browser compatibility.
+- Clean and modern UI/UX design.
+- Lightweight and fast-loading pages.
+- Contact form with validation and submission handling.
 
 ---
 
