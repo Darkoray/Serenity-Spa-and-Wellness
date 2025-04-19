@@ -15,17 +15,15 @@ _Serenity Spa & Wellness_ is a responsive website I created to **learn**, **prac
 
 ---
 
-## Lighthouse Reports -
+## Lighthouse Reports
 
-### Desktop Results
+**Desktop Results** (_Click the image to see the full report_)
 
-![Lighthouse Report Desktop](img/Lighthouse-Report-Desktop.png)  
-[View Full Desktop Report](/img/Lighthouse-Report-Desktop-Full.png)
+[![Lighthouse Report Desktop](img/Lighthouse-Report-Desktop.png)](/img/Lighthouse-Report-Desktop-Full.png)
 
-### Mobile Results
+**Mobile Results** (_Click the image to see the full report_)
 
-![Lighthouse Report Mobile](img/Lighthouse-Report-Mobile.png)  
-[View Full Mobile Report](/img/Lighthouse-Report-Mobile-Full.png)
+[![Lighthouse Report Mobile](img/Lighthouse-Report-Mobile.png)](/img/Lighthouse-Report-Mobile-Full.png)
 
 ---
 
@@ -48,13 +46,23 @@ Quick access to website sections and pages:
 
 ---
 
-#### Created by
+![Homepage](img/homepage-screenshot.png)
+
+---
+
+### Created by
 
 [![GitHub](https://img.shields.io/badge/_Darkoray-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Darkoray)
 
-#### Contacts:
+### Contacts:
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/soadul.islam.71) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/soadul.islam.71) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/soadul-islam) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:soadulislam1234@gmail.com) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/+8801312211260)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discordapp.com/users/743413210517995530) [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Darkoray)
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the **[LICENSE](LICENSE)** file for details.
 
 ---
